@@ -1,0 +1,265 @@
+{
+    "subcategory": "Phishing Awareness",
+    "questions": [
+        {
+            "id": "Q1",
+            "question": "You receive an unexpected email asking to confirm your bank details like this. What should you do?",
+            "options": [
+                {
+                    "text": "Reply and confirm",
+                    "marks": 0,
+                    "level": "Wrong"
+                },
+                {
+                    "text": "Click the link to check",
+                    "marks": 3,
+                    "level": "Beginner"
+                },
+                {
+                    "text": "Ignore and delete it",
+                    "marks": 5,
+                    "level": "Intermediate"
+                },
+                {
+                    "text": "Report it as phishing",
+                    "marks": 10,
+                    "level": "Advanced"
+                }
+            ]
+        },
+        {
+            "id": "Q2",
+            "question": "Which of these is a sign of a phishing email?",
+            "options": [
+                {
+                    "text": "Grammatical errors and urgent tone",
+                    "marks": 10,
+                    "level": "Advanced"
+                },
+                {
+                    "text": "It comes from your manager",
+                    "marks": 3,
+                    "level": "Beginner"
+                },
+                {
+                    "text": "It has your name in the subject",
+                    "marks": 5,
+                    "level": "Intermediate"
+                },
+                {
+                    "text": "No signature",
+                    "marks": 0,
+                    "level": "Wrong"
+                }
+            ]
+        },
+        {
+            "id": "Q3",
+            "question": "If an email address looks like “support@amazo0n.com”, what should you do?",
+            "options": [
+                {
+                    "text": "Reply to confirm if it’s real",
+                    "marks": 3,
+                    "level": "Beginner"
+                },
+                {
+                    "text": "Assume it’s a mistake",
+                    "marks": 0,
+                    "level": "Wrong"
+                },
+                {
+                    "text": "Delete and mark as spam",
+                    "marks": 5,
+                    "level": "Intermediate"
+                },
+                {
+                    "text": "Recognize it’s spoofed and report it",
+                    "marks": 10,
+                    "level": "Advanced"
+                }
+            ]
+        },
+        {
+            "id": "Q4",
+            "question": "You’re asked to reset your password through an email link. What is the safest step?",
+            "options": [
+                {
+                    "text": "Click and reset it",
+                    "marks": 3,
+                    "level": "Beginner"
+                },
+                {
+                    "text": "Ignore it",
+                    "marks": 5,
+                    "level": "Intermediate"
+                },
+                {
+                    "text": "Go directly to the official website to reset",
+                    "marks": 10,
+                    "level": "Advanced"
+                },
+                {
+                    "text": "Forward it to someone else",
+                    "marks": 0,
+                    "level": "Wrong"
+                }
+            ]
+        },
+        {
+            "id": "Q5",
+            "question": "Why is it risky to use the same password for email and banking?",
+            "options": [
+                {
+                    "text": "Because email is not important",
+                    "marks": 0,
+                    "level": "Wrong"
+                },
+                {
+                    "text": "It can be confusing",
+                    "marks": 3,
+                    "level": "Beginner"
+                },
+                {
+                    "text": "If one is breached, both are compromised",
+                    "marks": 10,
+                    "level": "Advanced"
+                },
+                {
+                    "text": "They work on different platforms",
+                    "marks": 5,
+                    "level": "Intermediate"
+                }
+            ]
+        },
+        {
+            "id": "Q6",
+            "question": "You receive a pop-up asking for your login like this. What should you do?",
+            "options": [
+                {
+                    "text": "Enter details quickly",
+                    "marks": 0,
+                    "level": "Wrong"
+                },
+                {
+                    "text": "Close the window and restart",
+                    "marks": 5,
+                    "level": "Intermediate"
+                },
+                {
+                    "text": "Check the URL and site certificate",
+                    "marks": 10,
+                    "level": "Advanced"
+                },
+                {
+                    "text": "Click “Yes” and update later",
+                    "marks": 3,
+                    "level": "Beginner"
+                }
+            ]
+        },
+        {
+            "id": "Q7",
+            "question": "Why do phishing emails often include urgent messages like “Act Now!”?",
+            "options": [
+                {
+                    "text": "To help users stay alert",
+                    "marks": 0,
+                    "level": "Wrong"
+                },
+                {
+                    "text": "To scare you into clicking",
+                    "marks": 10,
+                    "level": "Advanced"
+                },
+                {
+                    "text": "To speed up support",
+                    "marks": 5,
+                    "level": "Intermediate"
+                },
+                {
+                    "text": "Because it’s a system error",
+                    "marks": 3,
+                    "level": "Beginner"
+                }
+            ]
+        },
+        {
+            "id": "Q8",
+            "question": "What’s a “spear phishing” attack?",
+            "options": [
+                {
+                    "text": "An attack using harmful hardware",
+                    "marks": 0,
+                    "level": "Wrong"
+                },
+                {
+                    "text": "A generic email to many people",
+                    "marks": 3,
+                    "level": "Beginner"
+                },
+                {
+                    "text": "A highly targeted email crafted for a specific person",
+                    "marks": 10,
+                    "level": "Advanced"
+                },
+                {
+                    "text": "A virus in a PDF",
+                    "marks": 5,
+                    "level": "Intermediate"
+                }
+            ]
+        },
+        {
+            "id": "Q9",
+            "question": "Why do attackers sometimes use HTTPS in phishing sites?",
+            "options": [
+                {
+                    "text": "To improve speed",
+                    "marks": 3,
+                    "level": "Beginner"
+                },
+                {
+                    "text": "To trick users into feeling safe",
+                    "marks": 10,
+                    "level": "Advanced"
+                },
+                {
+                    "text": "Because it’s required by law",
+                    "marks": 0,
+                    "level": "Wrong"
+                },
+                {
+                    "text": "To block ads",
+                    "marks": 5,
+                    "level": "Intermediate"
+                }
+            ]
+        },
+        {
+            "id": "Q10",
+            "question": "What should be your first response if you clicked a phishing link?",
+            "options": [
+                {
+                    "text": "Close the tab and continue working",
+                    "marks": 3,
+                    "level": "Beginner"
+                },
+                {
+                    "text": "Ignore it",
+                    "marks": 0,
+                    "level": "Wrong"
+                },
+                {
+                    "text": "Run antivirus, change your passwords, report it",
+                    "marks": 10,
+                    "level": "Advanced"
+                },
+                {
+                    "text": "Restart the device",
+                    "marks": 5,
+                    "level": "Intermediate"
+                }
+            ]
+        }
+    ]
+}
