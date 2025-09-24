@@ -1,0 +1,69 @@
+{
+  "responses": {
+    "You receive an unexpected email asking to confirm your bank details like this. What should you do?": "Reply and confirm",
+    "Which of these is a sign of a phishing email?": "It comes from your manager",
+    "If an email address looks like \u201csupport@amazo0n.com\u201d, what should you do?": "Delete and mark as spam",
+    "You\u2019re asked to reset your password through an email link. What is the safest step?": "Forward it to someone else",
+    "Why is it risky to use the same password for email and banking?": "Because email is not important",
+    "You receive a pop-up asking for your login like this. What should you do?": "Close the window and restart",
+    "Why do phishing emails often include urgent messages like \u201cAct Now!\u201d?": "To speed up support",
+    "What\u2019s a \u201cspear phishing\u201d attack?": "A virus in a PDF",
+    "Why do attackers sometimes use HTTPS in phishing sites?": "To trick users into feeling safe",
+    "What should be your first response if you clicked a phishing link?": "Close the tab and continue working"
+  },
+  "scores": {
+    "You receive an unexpected email asking to confirm your bank details like this. What should you do?": {
+      "answer": "Reply and confirm",
+      "score": 0,
+      "level": "Wrong"
+    },
+    "Which of these is a sign of a phishing email?": {
+      "answer": "It comes from your manager",
+      "score": 3,
+      "level": "Beginner"
+    },
+    "If an email address looks like \u201csupport@amazo0n.com\u201d, what should you do?": {
+      "answer": "Delete and mark as spam",
+      "score": 5,
+      "level": "Intermediate"
+    },
+    "You\u2019re asked to reset your password through an email link. What is the safest step?": {
+      "answer": "Forward it to someone else",
+      "score": 0,
+      "level": "Wrong"
+    },
+    "Why is it risky to use the same password for email and banking?": {
+      "answer": "Because email is not important",
+      "score": 0,
+      "level": "Wrong"
+    },
+    "You receive a pop-up asking for your login like this. What should you do?": {
+      "answer": "Close the window and restart",
+      "score": 5,
+      "level": "Intermediate"
+    },
+    "Why do phishing emails often include urgent messages like \u201cAct Now!\u201d?": {
+      "answer": "To speed up support",
+      "score": 5,
+      "level": "Intermediate"
+    },
+    "What\u2019s a \u201cspear phishing\u201d attack?": {
+      "answer": "A virus in a PDF",
+      "score": 5,
+      "level": "Intermediate"
+    },
+    "Why do attackers sometimes use HTTPS in phishing sites?": {
+      "answer": "To trick users into feeling safe",
+      "score": 10,
+      "level": "Advanced"
+    },
+    "What should be your first response if you clicked a phishing link?": {
+      "answer": "Close the tab and continue working",
+      "score": 3,
+      "level": "Beginner"
+    }
+  },
+  "total_score": 36,
+  "percentage": 36.0,
+  "overall_level": "Basic"
+}
