@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "created": "2025-09-28 02:55:11",
+    "category": "Phishing Awareness Security Assessment",
+    "description": "Assessment results database for phishing awareness"
+  },
+  "assessments": [
+    {
+      "timestamp": "2025-09-28 02:55:11",
+      "name": "Akthar",
+      "gender": "Male",
+      "education_level": "A/L",
+      "proficiency": "High Education",
+      "total_score": 43,
+      "percentage": 43.0,
+      "overall_knowledge_level": "Basic",
+      "category": "Phishing Awareness"
+    }
+  ]
+}

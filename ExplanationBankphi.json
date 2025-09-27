@@ -1,0 +1,4802 @@
+[
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, replying to such an email is dangerous. It’s like giving your school ID to a stranger without checking who they are."
+    },
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, answering this kind of email is unsafe. Think of it like sharing exam papers with someone you don’t know — you can’t trust it."
+    },
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, replying to unknown emails is like installing an app without checking permissions — it puts your data at risk."
+    },
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, responding directly is risky. Just like signing a blank paper, you don’t know how it will be misused."
+    },
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, replying confirms your email is active. Hackers then target you more, just like thieves mark houses that open the door."
+    },
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, this reply will validate your address to scammers. It’s like showing your national ID copy to a random person on the road."
+    },
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, replying gives attackers a confirmation channel. In IT terms, it’s like sending a live ping that tells them you are online."
+    },
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, responding opens communication with threat actors. It’s similar to establishing an insecure connection without encryption."
+    },
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, replying is unsafe. It’s like giving your class timetable to a stranger — they don’t need to know and it puts you at risk."
+    },
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, replying confirms your identity to someone suspicious. Like answering a random phone call and sharing family details."
+    },
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, replying without checking is risky. Think of it as entering login details on a fake website — your information may be stolen."
+    },
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, sending a reply gives away your active email. It’s like broadcasting your phone number to unknown groups — unsafe."
+    },
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, replying confirms your email works. Scammers then target you again, just like street vendors who come back once you buy."
+    },
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, replying creates risk. It’s like giving strangers your attendance sheet — they now know where to find you."
+    },
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, this reply acts like a handshake with a hacker. In IT, it’s basically a handshake protocol — but unsecured."
+    },
+    {
+        "questionId": "Q1",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, replying is the worst step. It establishes direct contact with attackers, just like opening a locked door for a stranger."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, clicking unknown links is risky. Just imagine opening a stranger’s parcel without knowing who sent it. It can carry hidden traps. Always check the bank’s official website instead."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, clicking on links in emails can install harmful software or steal your details. It’s like letting a stranger borrow your school bag without checking what’s inside. Safer to access the bank directly."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, phishing links look real but are traps. Think of it like a fake tuition notice on the wall with wrong exam dates. If you trust it blindly, you may get into trouble. Open the official site instead."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, clicking such links exposes your credentials. It’s like giving your ATM card to a stranger claiming to help — dangerous. Always use the official bank portal."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, attackers design fake pages to trick you. It’s like copying notes from a wrong textbook — looks correct but misleads you. Always open the bank’s official website directly."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, clicking the link allows phishing websites to capture your details. Like signing on a fake attendance sheet — it looks normal but isn’t. Verify via the official page yourself."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, such links often hide malicious URLs. Think of it like a shop using a fake brand label — outside looks trusted, inside is fraud. Open the official bank domain directly."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, clicking the link exposes you to phishing sites designed to harvest credentials. It’s like filling forms for a fake government scheme — they collect your data but offer nothing. Safer: access bank site independently."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, clicking strange links is like taking sweets from a stranger — looks nice but unsafe. The site may look real but steals your details. Always visit the official bank site yourself."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, clicking can lead to fake websites copying your login. It’s like answering a random phone call and sharing personal family details — risky. Safer to log in via official site."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, these links are traps. Imagine exam results posted on a fake notice board — students can get misled. Banks advise using official sites only."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, clicking exposes your credentials. It’s like filling your details on a fake university application form — once submitted, it’s gone. Use the official site instead."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, attackers create urgent-looking links to trick you. Like fake scholarship notices on school walls. Ignore links and type the bank website yourself."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, these links are dangerous because phishing pages look identical to real ones. Like a forged ID card — looks genuine, but fake. Visit the official bank site instead."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, such links redirect to malicious sites. Think of it like a fake tuition teacher giving wrong notes. Safer: enter the official bank URL yourself."
+    },
+    {
+        "questionId": "Q1",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, clicking links is a key entry point for phishing. It’s like responding to a scam job ad in the paper — they collect your data but never deliver. Verify only via bank’s official site."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, ignoring and deleting suspicious emails is good. Think of it like ignoring strangers trying to sell you candy — safest choice to protect yourself."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, deleting unknown emails without clicking is smart. It’s like throwing away a suspicious parcel from the street — keeps you safe from danger."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, ignoring the email prevents accidental exposure. Like avoiding fake exam result boards — you don’t get misled and stay safe."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, choosing to delete phishing emails without clicking is sensible. It’s like refusing to open a suspicious door — protects your personal information."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, ignoring and deleting suspicious links prevents credential theft. It’s like avoiding walking through a poorly lit, unsafe path — safe decision."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, by ignoring such emails, you protect your online identity. Think of it as not answering calls from unknown numbers — reduces risk."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, deleting suspicious emails is like discarding spam messages — keeps your system clean and safe from attackers."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, ignoring and removing phishing emails protects sensitive data. Like avoiding fake investment offers — safeguards your assets and info."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, ignoring and deleting suspicious emails is the safe step. Imagine ignoring a stranger offering sweets — best choice for safety."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, deleting unknown emails without clicking is smart. It’s like throwing away a suspicious parcel from the street — keeps you safe."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, ignoring such emails prevents accidental exposure. Like avoiding fake exam result boards — safe and wise decision."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, choosing to delete phishing emails without clicking is sensible. It’s like refusing to open a suspicious door — protects your personal information."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, ignoring and deleting suspicious emails prevents credential theft. Like avoiding walking through a poorly lit, unsafe path — safe decision."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, ignoring such emails protects your online identity. Think of it as not answering calls from unknown numbers — reduces risk."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, deleting suspicious emails is like discarding spam messages — keeps your system clean and safe from attackers."
+    },
+    {
+        "questionId": "Q1",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, ignoring and removing phishing emails protects sensitive data. Like avoiding fake investment offers — safeguards your assets and info."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, just because an email seems to come from your manager doesn’t mean it’s safe. Imagine someone wearing your principal’s uniform — looks real, but could be fake. Always verify through official channels."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, emails may pretend to be from your manager to trick you. Like a friend sending a note pretending to be your teacher — looks convincing but can mislead you."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, even if the email says it’s from your manager, check carefully. It’s like someone using a fake ID card — verify before trusting it."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, phishing emails often spoof trusted people. Like receiving a letter supposedly from a bank manager — always confirm authenticity before acting."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, attackers often impersonate authority figures. Imagine someone pretending to be your tuition teacher — looks convincing but is risky."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, even emails from known names may be fakes. Like a fake notice from your school principal — check directly with them before following instructions."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, phishing often uses familiar names to trick you. Think of it like receiving a WhatsApp message claiming to be your boss — verify first."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, attackers exploit trust by spoofing familiar emails. Like a fake memo from HR — always confirm via direct contact."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, just because an email seems to come from your manager doesn’t mean it’s safe. Imagine someone wearing your principal’s uniform — looks real, but could be fake."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, emails may pretend to be from your manager to trick you. Like a friend sending a note pretending to be your teacher — looks convincing but can mislead you."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, even if the email says it’s from your manager, check carefully. It’s like someone using a fake ID card — verify before trusting it."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, phishing emails often spoof trusted people. Like receiving a letter supposedly from a bank manager — always confirm authenticity before acting."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, attackers often impersonate authority figures. Imagine someone pretending to be your tuition teacher — looks convincing but is risky."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, even emails from known names may be fakes. Like a fake notice from your school principal — check directly with them before following instructions."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, phishing often uses familiar names to trick you. Think of it like receiving a WhatsApp message claiming to be your boss — verify first."
+    },
+    {
+        "questionId": "Q2",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, attackers exploit trust by spoofing familiar emails. Like a fake memo from HR — always confirm via direct contact."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, just seeing your name in the subject doesn’t guarantee the email is safe. Imagine someone calling your name outside school to trick you — check carefully before acting."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, phishing emails may use your name to feel personal. Like a stranger on the street shouting your name to gain trust — always verify the sender."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, seeing your name doesn’t mean it’s real. It’s like someone writing your friend’s name on a fake letter — looks convincing, but can mislead you."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, phishing emails often include your name to gain trust. Like receiving a fake invitation addressed to you — verify before clicking any links."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, attackers use personalization to trick you. Like hearing your name on a suspicious call — check legitimacy before responding."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, seeing your name doesn’t prove authenticity. Like a fake scholarship email addressed to you — always verify before taking action."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, attackers often use your name to appear genuine. Like a phishing WhatsApp message claiming to be your friend — confirm before responding."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, personalized emails may still be scams. Like an official-looking email with your name but fake sender address — check sender carefully."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, seeing your name in the subject line doesn’t mean it’s safe. Imagine someone calling your name outside school to trick you — be cautious."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, phishing emails may use your name to feel personal. Like a stranger on the street shouting your name to gain trust — always verify who sent it."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, seeing your name doesn’t mean the email is genuine. It’s like someone writing your friend’s name on a fake letter — looks convincing but is unsafe."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, attackers include your name to gain trust. Like receiving a fake invitation addressed to you — always confirm the source before taking any action."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, personalization tricks are common in phishing. Like hearing your name during a suspicious phone call — verify before responding."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, emails with your name can still be fake. Like a fraudulent scholarship email addressed personally — always confirm authenticity."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, attackers use your name to make emails look real. Like a phishing WhatsApp claiming to be your friend — double-check before acting."
+    },
+    {
+        "questionId": "Q2",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, personalization does not guarantee safety. Like an official-looking email with your name but fake sender — verify before clicking any links."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, an email without a signature can be suspicious. Imagine receiving a letter from school without a teacher’s name — you won’t know if it’s real. Always verify before acting."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, emails missing a proper signature may be phishing. Like a note from a stranger claiming to be your teacher — check carefully before trusting it."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, absence of a signature is a red flag. Think of it as a test paper without the teacher’s name — could be fake, so verify the source."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, emails without a proper signature may not be trustworthy. Like receiving an official-looking letter without a stamp — confirm authenticity first."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, missing signatures in emails are warning signs. Like a WhatsApp message claiming official info but no sender info — check before responding."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, an email with no signature might be phishing. Like an official memo without a department name — verify directly with sender."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, always be cautious if emails lack signatures. Like receiving an assignment instruction without teacher info — could be fake, so confirm first."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, emails missing proper signatures may be unsafe. Like a bank notice without official stamp — always verify before taking action."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, emails without a signature can be suspicious. Imagine a letter from school with no teacher’s name — you won’t know if it’s real."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, missing signatures may indicate phishing. Like a note from a stranger claiming to be your teacher — always check carefully."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, absence of a signature is a red flag. Think of it as a test paper without teacher info — could be fake, so verify."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, emails without signatures may not be trustworthy. Like an official-looking letter without a stamp — confirm authenticity first."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, missing signatures are warning signs. Like a WhatsApp message claiming official info but no sender info — check before responding."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, an email without a signature might be phishing. Like an official memo without department name — verify directly with sender."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, always be cautious if emails lack signatures. Like receiving an assignment instruction without teacher info — could be fake, so confirm first."
+    },
+    {
+        "questionId": "Q2",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, emails missing proper signatures may be unsafe. Like a bank notice without official stamp — always verify before taking action."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, replying to suspicious emails is risky. Imagine someone pretending to be your school principal — replying gives them your info. Always verify safely instead."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, responding to an unknown email can expose your personal data. Like answering a stranger on the street claiming to be your teacher — don’t do it, confirm via official channels."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, even if it looks like a support email, replying is unsafe. Think of it like giving your key to a stranger — it opens the door for trouble."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, replying may validate your account to attackers. Like responding to a fake bank notice — could lead to identity theft, so avoid replying."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, replying confirms your details to attackers. Imagine someone pretending to be your tuition teacher — safest way is to ignore and report."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, responding can compromise your info. Like answering a fake scholarship email — always check the real source first."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, replying to suspicious addresses is unsafe. Like giving your locker combination to a stranger — it allows unauthorized access."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, replying validates your email to attackers. Like confirming your identity to a scammer pretending to be a bank — avoid replying and report instead."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, replying to suspicious emails is risky. Imagine someone pretending to be your school principal — replying gives them your info."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, responding to unknown emails can expose your data. Like answering a stranger claiming to be your teacher — don’t do it, confirm safely."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, even if it looks like a support email, replying is unsafe. Think of it like giving your key to a stranger — opens door for trouble."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, replying may validate your account to attackers. Like responding to a fake bank notice — could lead to identity theft, so avoid replying."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, replying confirms your details to attackers. Imagine someone pretending to be your tuition teacher — safest way is to ignore and report."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, responding can compromise your info. Like answering a fake scholarship email — always check the real source first."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, replying to suspicious addresses is unsafe. Like giving your locker combination to a stranger — it allows unauthorized access."
+    },
+    {
+        "questionId": "Q3",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, replying validates your email to attackers. Like confirming identity to a scammer pretending to be a bank — avoid replying and report instead."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, assuming it’s a mistake is risky. Imagine a stranger leaving a note at school — it may seem small, but ignoring it could let them trick you later. Always verify before deleting."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, thinking an email is just a mistake can be dangerous. Like seeing a suspicious message from a friend — it may be a trap, so confirm before assuming."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, ignoring suspicious emails as mistakes can let attackers succeed. Think of it like leaving a gate unlocked thinking no one will come — verify instead."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, assuming phishing emails are mistakes may compromise your data. Like ignoring a warning sign on the road — confirm before acting."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, attackers rely on you assuming errors are harmless. Like a prankster leaving a note pretending to be school staff — always verify the sender."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, assuming an email is a mistake may expose your info. Like ignoring a suspicious message on WhatsApp — check before deleting."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, don’t assume suspicious emails are harmless mistakes. Like leaving your bike unlocked thinking no one will take it — verify first."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, assuming phishing emails are mistakes can be unsafe. Like ignoring a suspicious bank message — confirm authenticity before acting."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, assuming it’s a mistake is risky. Imagine a stranger leaving a note at school — it may seem small, but could trick you later. Verify before acting."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, thinking an email is just a mistake can be dangerous. Like seeing a suspicious message from a friend — it may be a trap, so confirm before assuming."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, ignoring suspicious emails as mistakes can let attackers succeed. Think of it like leaving a gate unlocked thinking no one will come — verify instead."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, assuming phishing emails are mistakes may compromise your data. Like ignoring a warning sign on the road — confirm before acting."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, attackers rely on you assuming errors are harmless. Like a prankster leaving a note pretending to be school staff — always verify the sender."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, assuming an email is a mistake may expose your info. Like ignoring a suspicious message on WhatsApp — check before deleting."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, don’t assume suspicious emails are harmless mistakes. Like leaving your bike unlocked thinking no one will take it — verify first."
+    },
+    {
+        "questionId": "Q3",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, assuming phishing emails are mistakes can be unsafe. Like ignoring a suspicious bank message — confirm authenticity before acting."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, deleting and marking suspicious emails as spam is safer. Like throwing away a stranger’s note in school — it protects you from being tricked."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, spam marking helps block future attempts. Like telling the school office about a prank note — it keeps others safe too."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, removing suspicious emails prevents exposure. Think of it like locking a suspicious letter in a drawer — better than leaving it out."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, marking phishing emails as spam is a good step. Like rejecting a fake invitation politely — protects your information."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, deleting and flagging emails prevents future phishing. Like discarding a suspicious WhatsApp message — safer for you and others."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, marking phishing as spam helps email systems recognize threats. Like reporting a prank note to teachers — protects your classmates too."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, deleting suspicious emails is a good precaution. Like ignoring a fake notice posted on campus — reduces risk of harm."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, marking phishing emails as spam prevents future attacks. Like reporting a scam call — protects your information and others around you."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, deleting and marking suspicious emails as spam keeps you safe. Like throwing away a stranger’s note in school — prevents trickery."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, spam marking stops future attempts. Like informing the school office about a prank note — keeps everyone safe."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, removing suspicious emails prevents exposure. Think of it like locking a suspicious letter in a drawer — safer than leaving it open."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, marking phishing emails as spam is a smart move. Like rejecting a fake invitation politely — protects your personal info."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, deleting and flagging emails reduces risk. Like discarding a suspicious WhatsApp message — safer for you and friends."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, marking phishing as spam helps email systems detect threats. Like reporting a prank note to teachers — protects everyone."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, deleting suspicious emails is wise. Like ignoring a fake notice on campus — reduces chances of harm."
+    },
+    {
+        "questionId": "Q3",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, marking phishing emails as spam prevents future attacks. Like reporting a scam call — protects your info and others around you."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, clicking a password link in an email is risky. Imagine someone sending a fake note pretending to be your school office — they could steal your info. Always go to the official website instead."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, emails with reset links can be traps. Like someone pretending to be your tuition teacher asking for your locker code — don’t click, visit official site to reset safely."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, clicking on email links may compromise your accounts. Like opening a stranger’s letter claiming it’s from the principal — verify first through official channels."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, clicking email reset links can be unsafe. Like answering a fake bank notice — always navigate directly to the official website to reset."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, email links can be phishing attempts. Imagine a WhatsApp message asking for your school password — safest way is to go directly to the official site."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, clicking unknown reset links may give attackers access. Like someone sending a fake scholarship link — always use official portal."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, clicking email links risks security. Like opening an unknown instruction from campus admin — better to check directly on official website."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, email password reset links may be phishing. Like confirming your bank info through a suspicious email — safer to access official site directly."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, clicking a password link is unsafe. Imagine someone sending a fake note pretending to be your school office — they could steal your info."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, reset links in emails can be traps. Like someone pretending to be your tuition teacher asking for your locker code — don’t click, visit official site to reset safely."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, clicking on email links may compromise your accounts. Like opening a stranger’s letter claiming it’s from the principal — verify first through official channels."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, clicking email reset links can be unsafe. Like answering a fake bank notice — always navigate directly to the official website to reset."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, email links can be phishing attempts. Imagine a WhatsApp message asking for your school password — safest way is to go directly to the official site."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, clicking unknown reset links may give attackers access. Like someone sending a fake scholarship link — always use official portal."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, clicking email links risks security. Like opening an unknown instruction from campus admin — better to check directly on official website."
+    },
+    {
+        "questionId": "Q4",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, email password reset links may be phishing. Like confirming your bank info through a suspicious email — safer to access official site directly."
+    },
+    {
+        "questionId": "Q4",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, ignoring the email avoids immediate risk but doesn’t solve the password issue. Like seeing a broken school gate and just walking past — better to go to the office (official website) to fix it safely."
+    },
+    {
+        "questionId": "Q4",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, ignoring may seem safe but your account may still be at risk. Like leaving a leaky tap running — eventually it causes problems. Always reset via the official site."
+    },
+    {
+        "questionId": "Q4",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, ignoring the reset email doesn’t solve a potential problem. Like ignoring a warning bell at school — check and act through official channels."
+    },
+    {
+        "questionId": "Q4",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, ignoring a password email may prevent phishing but your account could still be compromised. Like skipping a school fire drill — better to confirm safely on the official site."
+    },
+    {
+        "questionId": "Q4",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, ignoring the email avoids clicking a trap but doesn’t fix the issue. Like ignoring a cracked school window — check safely at the right place."
+    },
+    {
+        "questionId": "Q4",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, ignoring a reset email may protect you from phishing but leaves your account vulnerable. Like walking past a broken gate — better to fix safely through the official site."
+    },
+    {
+        "questionId": "Q4",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, ignoring the reset request is safe temporarily but risky long-term. Like ignoring a suspicious package in the office — always check safely via proper channels."
+    },
+    {
+        "questionId": "Q4",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, ignoring the email may prevent immediate phishing but your account may remain at risk. Like skipping a school warning sign — safest is to verify and act through official site."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, forwarding a suspicious email can put others at risk. Like passing a stranger’s note to your friend — they might get tricked. Always check through the official website yourself."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, forwarding phishing emails spreads danger. Like giving a fake notice to classmates — better to handle safely by verifying the source."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, sending the email to others may compromise them. Like sharing a suspicious WhatsApp link — verify first and act safely yourself."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, forwarding phishing emails can put friends or colleagues at risk. Like giving a fake invitation to classmates — always use official channels yourself."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, sharing suspicious emails can spread phishing attacks. Like passing along a prank message — verify first via the official website."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, forwarding a password email may expose others. Like sharing a fake scholarship link — always confirm through official site."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, sending suspicious emails to others is unsafe. Like giving a suspicious package to someone else — check safely first yourself."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, forwarding phishing emails risks compromising friends or colleagues. Like passing a fake notice — better to act through official channels yourself."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, forwarding suspicious emails can put others at risk. Like passing a stranger’s note to a friend — verify first through official website."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, forwarding phishing emails spreads danger. Like giving a fake notice to classmates — handle safely by verifying the source."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, sending the email to others may compromise them. Like sharing a suspicious WhatsApp link — verify first and act safely yourself."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, forwarding phishing emails can put friends or colleagues at risk. Like giving a fake invitation to classmates — always use official channels yourself."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, sharing suspicious emails spreads phishing attacks. Like passing along a prank message — verify first via the official website."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, forwarding a password email may expose others. Like sharing a fake scholarship link — always confirm through official site."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, sending suspicious emails to others is unsafe. Like giving a suspicious package to someone else — check safely first yourself."
+    },
+    {
+        "questionId": "Q4",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, forwarding phishing emails risks compromising friends or colleagues. Like passing a fake notice — better to act through official channels yourself."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, thinking email is unimportant is wrong. Like ignoring your school diary — if someone gets it, all your notes and homework info are at risk."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, emails often contain personal info. Ignoring them is like leaving your locker unlocked — anyone can take your stuff."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, underestimating email importance can be risky. Like leaving your exam papers on the bus — private info can be stolen."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, emails hold important personal and academic info. Ignoring security is like leaving your wallet in public — could be misused."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, thinking email is unimportant is unsafe. Like leaving your mobile unlocked — anyone can see private messages and notes."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, emails often store sensitive info. Ignoring them is like leaving your school bag unattended — someone can access it."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, ignoring email security risks personal info. Like leaving your exam answers in a public place — could be misused."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, underestimating email importance is risky. Like leaving your bank passbook on a table — personal info could be compromised."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, thinking email is unimportant is wrong. Like ignoring your school diary — private info can be stolen."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, emails often contain personal info. Ignoring them is like leaving your locker unlocked — anyone can take your stuff."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, underestimating email importance can be risky. Like leaving your exam papers on the bus — private info can be stolen."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, emails hold important personal and academic info. Ignoring security is like leaving your wallet in public — could be misused."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, thinking email is unimportant is unsafe. Like leaving your mobile unlocked — anyone can see private messages and notes."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, emails store sensitive info. Ignoring security is like leaving your school bag unattended — someone can access it."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, ignoring email security risks personal info. Like leaving exam answers in public — could be misused."
+    },
+    {
+        "questionId": "Q5",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, underestimating email importance is risky. Like leaving bank passbook on table — personal info could be compromised."
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, using the same password can confuse you, but the bigger risk is security. Like using the same key for school and home — if lost, both places are at risk."
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, same password might feel easy, but if someone finds it, both accounts are exposed. Like keeping same locker code for school and tuition — risky!"
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, confusion is minor, real danger is breach. Like using same notebook for multiple subjects — if lost, all info is gone."
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, same password might confuse, but threat is bigger. Like using one key for home and office — if stolen, both are compromised."
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, password confusion is minor, security is major. Like using same code for school and library — if leaked, both accounts are at risk."
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, same password might feel convenient, but compromise affects both accounts. Like same locker code for school and tuition — one breach, both lost."
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, confusion is minor, main issue is security. Like using single notebook for multiple subjects — loss exposes everything."
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, same password might confuse you, but threat is bigger. Like using one key for home and office — stolen key risks both places."
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, using same password may confuse, but danger is security. Like same key for school and home — if lost, both are at risk."
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, same password feels easy, but compromise affects both accounts. Like same locker code for school and tuition — risky!"
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, confusion is minor, main risk is breach. Like using one notebook for all subjects — loss exposes everything."
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, same password might confuse, but bigger threat is compromise. Like using single key for home and office — if stolen, both compromised."
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, minor confusion is okay, main danger is security. Like using same code for school and library — leak risks both accounts."
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, same password feels easy, but compromise affects both accounts. Like same locker code for school and tuition — one breach, both at risk."
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, confusion is minor, major risk is breach. Like using single notebook for multiple subjects — if lost, all info exposed."
+    },
+    {
+        "questionId": "Q5",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, same password might confuse, but threat is bigger. Like one key for home and office — stolen key risks both places."
+    },
+    {
+        "questionId": "Q5",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, this is actually the correct idea! Using same password means if one account is hacked, the other also becomes vulnerable. Like giving the same key for both your school locker and home — if someone gets it, both are open."
+    },
+    {
+        "questionId": "Q5",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, you got it! Same password across accounts risks all of them if one is breached. Like using the same locker combination for school and tuition — one breach, both compromised."
+    },
+    {
+        "questionId": "Q5",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, exactly! If one password is exposed, all accounts sharing it are at risk. Like having one key for house and office — lose it and both are vulnerable."
+    },
+    {
+        "questionId": "Q5",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, right! Reusing passwords is dangerous because a breach spreads. Like using the same PIN for ATM and online banking — one leak compromises both."
+    },
+    {
+        "questionId": "Q5",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, correct! Same password means one hack can affect all linked accounts. Like one key for home and bike lock — lose it and both are exposed."
+    },
+    {
+        "questionId": "Q5",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, right answer! Reusing passwords is risky; one breach compromises all. Like one password for school portal and tuition portal — one leak affects both."
+    },
+    {
+        "questionId": "Q5",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, perfect! One breached password endangers all accounts sharing it. Like using same key for home and office locker — if stolen, both compromised."
+    },
+    {
+        "questionId": "Q5",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, correct! Reusing passwords spreads risk across accounts. Like one PIN for ATM and online wallet — one hack and all are vulnerable."
+    },
+    {
+        "questionId": "Q5",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, right! Using the same password means if one account is hacked, others sharing it are at risk. Like giving the same key for home and school locker — one leak, both open."
+    },
+    {
+        "questionId": "Q5",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, exactly! Same password across accounts can compromise all if one is breached. Like using same locker code for school and tuition — one leak affects both."
+    },
+    {
+        "questionId": "Q5",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, perfect! If one account is hacked, all accounts sharing the password are at risk. Like using a single key for home and office — stolen key affects both."
+    },
+    {
+        "questionId": "Q5",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, right! Reusing passwords is dangerous; breach of one account compromises others. Like using same PIN for ATM and mobile banking — one leak risks all."
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, thinking different platforms make same password safe is wrong. Like thinking your house key won’t open the school locker — it still can be risky if someone gets it."
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, even on different platforms, using same password is dangerous. Like using same locker code for school and tuition — one leak compromises both."
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, platforms don’t protect you if password is reused. Like using the same key for home and office — if lost, both are at risk."
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, same password across platforms is unsafe. Like using one key for house and locker — one theft can affect both."
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, password confusion is minor, security is major. Like using same code for school and library — if leaked, both accounts are at risk."
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, same password might feel convenient, but compromise affects both accounts. Like same locker code for school and tuition — one breach, both lost."
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, confusion is minor, main issue is security. Like using single notebook for multiple subjects — loss exposes everything."
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, same password might confuse you, but threat is bigger. Like using one key for home and office — stolen key risks both places."
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, using same password may confuse, but danger is security. Like same key for school and home — if lost, both are at risk."
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, same password feels easy, but compromise affects both accounts. Like same locker code for school and tuition — risky!"
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, confusion is minor, main risk is breach. Like using one notebook for all subjects — loss exposes everything."
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, same password might confuse, but bigger threat is compromise. Like using single key for home and office — if stolen, both compromised."
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, minor confusion is okay, main danger is security. Like using same code for school and library — leak risks both accounts."
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, same password feels easy, but compromise affects both accounts. Like same locker code for school and tuition — one breach, both at risk."
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, confusion is minor, major risk is breach. Like using single notebook for multiple subjects — if lost, all info exposed."
+    },
+    {
+        "questionId": "Q5",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, same password might confuse, but threat is bigger. Like one key for home and office — stolen key risks both places."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, never enter login info in pop-ups immediately. Like giving your school diary to a stranger — your info can be stolen."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, quickly entering details is risky. Like handing over your locker key to someone unknown — your private info is at risk."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, entering login info hastily can lead to theft. Like giving your notes to a stranger — confidential info can be misused."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, rushing into pop-ups is dangerous. Like handing your wallet to a stranger — your sensitive info could be stolen."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, don’t enter details in pop-ups immediately. Like giving away your mobile password — your data could be compromised."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, hasty input is risky. Like sharing your locker combination with someone unknown — privacy can be breached."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, entering login quickly in pop-ups is unsafe. Like handing your exam answers to a stranger — info can be misused."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, rushing to fill pop-ups can be harmful. Like giving your banking PIN to someone unknown — your accounts are at risk."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, never enter pop-up login info quickly. Like giving your diary to a stranger — private info can be stolen."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, quickly entering login info is risky. Like handing your locker key to a stranger — your privacy is at risk."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, entering login hastily can lead to info theft. Like giving your notes to a stranger — confidential info can be misused."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, rushing into pop-ups is unsafe. Like handing your wallet to a stranger — sensitive info could be stolen."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, don’t quickly fill pop-ups. Like giving your mobile password to someone unknown — data could be compromised."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, hasty input is risky. Like sharing locker code with unknown person — privacy can be breached."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, entering login quickly in pop-ups is unsafe. Like handing your exam answers to a stranger — info can be misused."
+    },
+    {
+        "questionId": "Q6",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, rushing to fill pop-ups can be harmful. Like giving your banking PIN to unknown person — accounts are at risk."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, closing the pop-up is better than entering info, but restarting and checking the real site is even safer. Like closing a stranger's letter and going back to the official noticeboard."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, good step! Closing the window avoids risk, but always verify on the official site. Like ignoring a suspicious note and checking with your teacher."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, closing the pop-up prevents immediate danger, but checking the legitimate site is safer. Like shutting a suspicious letter and confirming with school office."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, closing the pop-up is a safe move, but restarting and verifying on official site ensures security. Like ignoring unknown message and confirming via official channel."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, closing window reduces risk, but visiting the official site to login is best. Like ignoring a stranger’s message and checking official notice."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, closing the pop-up is correct, but always confirm on official site. Like avoiding a suspicious note and verifying with proper office."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, closing the pop-up is safer, but checking official site is smarter. Like discarding suspicious message and confirming with authority."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, good move! Closing pop-up prevents risk, but always verify login via official site. Like ignoring unknown notice and confirming from office."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, closing the pop-up is better than entering info. But checking official site is safer. Like ignoring stranger’s note and checking school noticeboard."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, closing window is correct, but always verify official site. Like discarding suspicious note and confirming with teacher."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, closing the pop-up prevents immediate danger, but check the real site. Like shutting suspicious letter and confirming with school office."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, closing pop-up is safer, but verifying via official site ensures protection. Like ignoring unknown message and confirming through official channel."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, closing the window reduces risk, but visiting official site to login is best. Like ignoring stranger’s note and checking official notice."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, closing pop-up is correct, but always confirm login via official site. Like avoiding suspicious message and verifying with proper authority."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, closing the pop-up is safe, but checking official site is smarter. Like discarding suspicious note and confirming with school office."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, good move! Closing pop-up avoids risk, but always verify login through official site. Like ignoring unknown message and confirming via authority."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, closing window reduces risk, but visiting the official site to login is best. Like ignoring a stranger’s message and checking official notice."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, closing the pop-up is correct, but always confirm on official site. Like avoiding a suspicious note and verifying with proper office."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, closing the pop-up is safer, but checking official site is smarter. Like discarding suspicious message and confirming with authority."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, good move! Closing pop-up prevents risk, but always verify login via official site. Like ignoring unknown notice and confirming from office."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, closing the pop-up is better than entering info. But checking official site is safer. Like ignoring stranger’s note and checking school noticeboard."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, closing window is correct, but always verify official site. Like discarding suspicious note and confirming with teacher."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, closing the pop-up prevents immediate danger, but check the real site. Like shutting suspicious letter and confirming with school office."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, closing pop-up is safer, but verifying via official site ensures protection. Like ignoring unknown message and confirming through official channel."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, closing the window reduces risk, but visiting official site to login is best. Like ignoring stranger’s note and checking official notice."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, closing pop-up is correct, but always confirm login via official site. Like avoiding suspicious message and verifying with proper authority."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, closing the pop-up is safe, but checking official site is smarter. Like discarding suspicious note and confirming with school office."
+    },
+    {
+        "questionId": "Q6",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, good move! Closing pop-up avoids risk, but always verify login through official site. Like ignoring unknown message and confirming via authority."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, this is the smartest choice! Always check the URL and site certificate before entering info. Like looking at the front of a shop and its official sign before giving money — ensures safety."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, right move! Verifying URL and certificate ensures the site is real. Like checking the teacher’s stamp on a notice before trusting it."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, excellent! Confirming site address and certificate prevents being tricked. Like checking official notice from school office before acting."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, correct! Checking URL and certificate verifies legitimacy. Like confirming with authorized office before giving personal info."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, this is safe! Always confirm URL and certificate before login. Like checking the shop’s sign and ID before giving money."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, smart choice! Validating URL and certificate ensures site is not fake. Like confirming teacher’s stamp on a notice before acting."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, excellent step! Checking URL and certificate protects your info. Like verifying official letterhead before sharing details."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, correct! URL and certificate verification ensures security. Like confirming identity before giving important documents."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, very good! Checking URL and certificate keeps info safe. Like looking at shop sign and ID before giving money."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, smart choice! Validating site address and certificate ensures safety. Like checking teacher’s stamp on a notice before trusting it."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, excellent! Confirming URL and certificate prevents phishing. Like checking official letterhead before giving information."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, correct! Verifying URL and certificate ensures the site is legitimate. Like confirming identity before sharing sensitive info."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, right! Always check URL and certificate. Like inspecting the shop sign and official ID before handing over money."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, smart choice! Validating the URL and certificate ensures you’re on the real site. Like confirming official stamp on a notice."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, excellent! Checking URL and certificate protects your personal info. Like verifying letterhead before sharing confidential details."
+    },
+    {
+        "questionId": "Q6",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, correct! URL and certificate verification ensures security. Like confirming official identity before giving sensitive information."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, that’s not correct. Phishing emails use urgency to trick you, not to help. Imagine someone shouting 'Act now!' in school to steal your lunch — it’s a trick."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, wrong choice. Urgent messages are meant to scare, not alert. Like a stranger in class shouting 'Hurry!' to get your notebook — it’s manipulation."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, urgency is a phishing trick. Not to help you. Like a fake fire alarm at tuition to steal your notes — don’t be fooled."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, incorrect. Urgent tones in phishing emails aim to pressure, not help. Like someone rushing you to hand over money — it’s a trap."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, that’s wrong. Urgent messages are scare tactics. Like someone yelling 'Quick!' to trick you into giving your diary — a trap."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, urgency is a phishing tool. Not a help. Like fake announcement at school urging action to steal items — stay cautious."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, phishing uses urgency to scare you. Not to help. Like fake alarm to rush students and steal notes — be careful."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, wrong choice. Urgent phishing emails pressure users. Like someone forcing quick decision to trick you — don’t fall for it."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, that’s not correct. Urgency in emails is to scare, not alert. Like someone shouting in school to grab your lunch — it’s a trap."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, wrong choice. Urgent messages aim to trick, not help. Like a stranger in class shouting 'Hurry!' to take your notebook — be cautious."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, phishing uses urgency as a trick. Not to assist. Like a fake fire alarm to steal your notes — don’t trust it."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, incorrect. Urgent tone pressures you to act. Like someone rushing you to give money — it’s a phishing trap."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, wrong. Urgency is a scare tactic. Like someone shouting 'Quick!' to trick you into giving diary — stay alert."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, urgency in phishing emails is meant to trick. Like fake school announcement pushing you to act quickly — don’t fall for it."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, phishing emails use urgency to scare you, not help. Like fake alarm in tuition to grab notebooks — be careful."
+    },
+    {
+        "questionId": "Q7",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong choice. Urgent messages pressure users. Like someone forcing quick decision to trick you — don’t be fooled."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, that’s not correct. Phishing emails don’t speed up support — they try to trick you. Like someone in class saying 'Hurry!' just to steal your homework — it’s a trap."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, wrong choice. Urgent emails aim to scare, not help. Like a stranger rushing you in tuition to take your notebook — stay cautious."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, urgency is a trick in phishing emails. Not to provide faster help. Like a fake alarm at school to make you panic — don’t fall for it."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, incorrect. Urgent phishing messages pressure users, they don’t improve support. Like someone forcing you to hand over money quickly — a trap."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, wrong. Phishing emails create urgency to trick, not to speed up service. Like someone shouting 'Quick!' to steal your diary — stay alert."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, urgency is used to pressure, not provide fast support. Like fake notice urging action to take notes — don’t trust it."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, wrong choice. Urgent emails in phishing aim to scare. Like fake fire alarm to grab your materials — be cautious."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, incorrect. Urgency in phishing doesn’t help support. Like someone forcing quick action to trick you — don’t fall for it."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, that’s not correct. Phishing emails don’t speed things up, they trick you. Like someone shouting in school to grab your lunch — it’s a trap."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, wrong choice. Urgent messages aim to manipulate, not help. Like a stranger in class rushing you to take notebook — be careful."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, urgency is a phishing trick, not to improve support. Like fake alarm to steal notes — don’t trust it."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, incorrect. Phishing emails use urgency to pressure, not help. Like forcing you to hand over money quickly — it’s a trap."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, wrong. Urgent phishing messages trick you, not speed up support. Like someone yelling 'Quick!' to grab your diary — be alert."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, urgency is used to scare, not provide faster service. Like fake notice urging quick action — don’t trust it."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. Urgent emails trick you. Like a fake fire alarm to grab your materials — be cautious."
+    },
+    {
+        "questionId": "Q7",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, incorrect. Urgent phishing messages pressure you, not help support. Like forcing you to act fast to steal info — don’t fall for it."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, that’s not correct. Spear phishing is about targeted emails, not hardware. Like someone sending a fake letter just for you, not a broken gadget."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, wrong choice. Spear phishing targets a person via email. Like receiving a personalized message at tuition — not a device attack."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, incorrect. Spear phishing is targeted email trickery, not harmful hardware. Like someone sending a fake notice just for you — focus on content, not gadgets."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, wrong. Spear phishing is a personalized email scam, not a hardware attack. Like receiving a fake official email — not about a broken computer."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, that’s incorrect. Spear phishing uses targeted messages, not hardware. Like getting a letter just for you — the focus is on the message."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, wrong. Spear phishing sends emails to a specific person, not a device attack. Like personalized notice at school — content matters, not hardware."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, incorrect. Spear phishing targets individuals via email, not hardware. Like receiving a fake personal email — watch the content carefully."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, wrong choice. Spear phishing is email-based and targeted. Like a fake personalized notice — no gadgets involved."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, that’s not correct. Spear phishing uses emails to trick, not hardware. Like getting a fake letter meant just for you — focus on the message."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, wrong choice. Spear phishing is a targeted email scam, not a device attack. Like receiving a personalized note at tuition — it’s the message, not hardware."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, incorrect. Spear phishing targets specific people via email, not hardware. Like a fake notice meant only for you — watch the content."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. Spear phishing is about targeted emails, not devices. Like getting a fake personalized official email — focus on message safety."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, that’s wrong. Spear phishing uses personalized messages, not hardware. Like a letter meant just for you — content matters, not gadgets."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. Spear phishing targets individuals via email, not devices. Like receiving a specific notice at school — it’s the message that’s important."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. Spear phishing uses email to trick a specific person, not hardware. Like a fake personalized notice — watch the content carefully."
+    },
+    {
+        "questionId": "Q8",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. Spear phishing is a targeted email scam, not a hardware attack. Like a fake personal notice — focus on verifying the message."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, that’s not correct. Spear phishing is highly targeted, not generic. Like getting a special letter meant only for you, not a mass notice to all classmates."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, wrong choice. Spear phishing emails are crafted for a specific person. Like a personalized tuition note — not a general one sent to everyone."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, incorrect. Spear phishing is targeted, not broad. Like a letter addressed just to you, not a notice to the whole school."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, wrong. Spear phishing is personalized. Like receiving a fake personalized email — not a generic announcement to many people."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, that’s wrong. Spear phishing targets one person. Like getting a letter only for you, not a general letter sent to everyone."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, incorrect. Spear phishing emails are made for a single person, not mass emails. Like personalized tuition message — focus is on you."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, wrong choice. Spear phishing is very specific, not general. Like receiving a letter just for you, not for all students."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, incorrect. Spear phishing targets individuals. Like getting a fake personalized notice — not a generic email to everyone."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, that’s wrong. Spear phishing is targeted, not general. Like a letter just for you — not a notice sent to all classmates."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. Spear phishing emails are personalized, not generic. Like a special tuition note just for you — not for everyone."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. Spear phishing is very targeted, not a mass email. Like receiving a letter addressed only to you — not to the whole class."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, incorrect. Spear phishing focuses on one person. Like a fake personalized notice — not a generic announcement to everyone."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, wrong. Spear phishing targets specific individuals. Like getting a special letter for you — not a general letter sent to all."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. Spear phishing is personalized, not generic. Like a personalized tuition note — focus on you, not everyone."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. Spear phishing emails are very specific. Like a letter just for you — not sent to the whole class."
+    },
+    {
+        "questionId": "Q8",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, incorrect. Spear phishing focuses on individuals, not mass recipients. Like a fake personalized notice — not a generic email."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, that’s not correct. Spear phishing is about targeted emails, not viruses. Like someone sending a fake personal letter, not a harmful PDF file."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, wrong choice. Spear phishing targets a specific person with email tricks, not malware in PDFs. Like getting a note just for you — focus on the content."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, incorrect. Spear phishing is about emails tailored to someone, not viruses in attachments. Like receiving a fake personalized notice — check the message carefully."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, wrong. Spear phishing focuses on personalized emails, not malware. Like a fake letter addressed just to you — watch the email content."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, that’s wrong. Spear phishing uses targeted messages, not virus-infected PDFs. Like a letter only for you — the focus is on who it’s for."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, incorrect. Spear phishing emails are personalized, not virus attachments. Like a personal tuition message — content matters, not malware."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, wrong choice. Spear phishing is targeted email trickery, not malware PDFs. Like receiving a fake personalized notice — check carefully."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, wrong. Spear phishing focuses on email targeting, not viruses. Like a fake personal letter — focus on verifying the message."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, that’s wrong. Spear phishing is about targeted emails, not harmful PDFs. Like a letter just for you — focus on content, not file type."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. Spear phishing targets specific people with emails, not virus files. Like a personalized note at tuition — it’s the message that matters."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. Spear phishing is email-based and targeted, not malware in PDFs. Like a fake personalized notice — content is important."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. Spear phishing emails target individuals, not viruses. Like a letter meant just for you — check the content carefully."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, wrong. Spear phishing is personalized emails, not malware PDFs. Like a special letter just for you — focus on the message."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. Spear phishing targets specific individuals, not PDF viruses. Like a personalized tuition note — content matters."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. Spear phishing uses email to trick someone, not PDFs. Like a fake personalized notice — watch the message."
+    },
+    {
+        "questionId": "Q8",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. Spear phishing is a targeted email scam, not a virus file. Like a personal fake notice — focus on verifying the email."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, that’s not correct. Attackers use HTTPS in phishing to trick you into feeling safe, not to make anything faster. Like someone putting a lock on an empty box — it looks secure but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, wrong choice. HTTPS is to make you trust the site, not to speed things up. Like a fake locked diary — looks safe, but can be opened by others."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, incorrect. Phishing sites use HTTPS to appear safe. Like a closed box that seems secure but has a hidden hole — don’t be fooled."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, wrong. HTTPS in phishing sites is to gain your trust, not for speed. Like a padlock on an empty chest — looks safe but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, wrong choice. Phishing sites may use HTTPS to make you feel secure. Like putting a lock on a box with no content — looks safe but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, incorrect. HTTPS in phishing is to trick users, not to increase speed. Like a locked empty drawer — looks secure but can be deceptive."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, wrong. Phishing attackers use HTTPS to appear trustworthy, not faster. Like a locked box with nothing inside — looks safe but is misleading."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, incorrect. HTTPS in phishing sites creates a false sense of security. Like a padlock on an empty container — it’s only an illusion of safety."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, that’s wrong. Attackers use HTTPS to trick you, not to speed things up. Like a locked empty box — looks safe but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. HTTPS gives fake trust, not faster browsing. Like a diary with a lock but pages are empty — looks safe but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. Phishing sites use HTTPS to appear safe. Like a closed box that seems secure but has a hole — be careful."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. HTTPS in phishing is to make you trust the site, not for speed. Like a locked chest with nothing inside — looks safe but is misleading."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, wrong. HTTPS is used to trick users into feeling secure, not to improve speed. Like putting a lock on an empty box — looks safe but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. Phishing attackers use HTTPS to appear trustworthy, not faster. Like a locked empty drawer — looks secure but deceptive."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. HTTPS creates a false sense of safety in phishing. Like a closed box with a padlock but empty inside — don’t be fooled."
+    },
+    {
+        "questionId": "Q9",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. HTTPS in phishing gives fake security, not speed. Like a padlocked empty chest — looks safe but is misleading."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, that’s not correct. HTTPS in phishing is not about the law, it’s to trick you into feeling safe. Like a locked empty box — looks secure but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, wrong choice. Phishing attackers use HTTPS to create trust, not because of laws. Like a locked diary with empty pages — looks safe but can be dangerous."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, incorrect. HTTPS is used to make the phishing site seem secure, not due to legal reasons. Like a closed box with a lock — looks safe but is misleading."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, wrong. HTTPS in phishing is for tricking users into trusting the site, not for legal compliance. Like a padlock on an empty chest — looks safe but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, wrong choice. Phishing sites use HTTPS to appear trustworthy, not because of law. Like locking an empty box — looks secure but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, incorrect. HTTPS is about creating trust in phishing, not legal requirement. Like a locked empty drawer — looks safe but deceptive."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, wrong. HTTPS makes phishing sites look safe, not law-mandated. Like a locked empty box — looks secure but is misleading."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, incorrect. Phishing attackers use HTTPS to trick users into trusting the site, not due to laws. Like a padlock on an empty chest — deceptive."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, wrong. HTTPS in phishing is about creating trust, not legal reasons. Like a locked empty box — looks safe but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. Phishing sites use HTTPS to appear trustworthy, not because it’s required by law. Like a locked diary with empty pages — deceptive."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. HTTPS gives fake security in phishing, not due to legal reasons. Like a locked empty box — looks safe but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. HTTPS in phishing is to trick users, not for law compliance. Like a padlocked empty chest — looks safe but is misleading."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, wrong. Phishing sites use HTTPS to appear safe, not because it’s required. Like locking an empty box — looks secure but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. HTTPS in phishing is to make the site look trustworthy, not for law reasons. Like a locked empty drawer — deceptive."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. HTTPS is for tricking users, not legal compliance. Like a closed locked box — looks secure but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "C",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. Phishing attackers use HTTPS to appear trustworthy, not because of laws. Like a padlock on an empty chest — misleading safety."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, that’s wrong. HTTPS in phishing is not about blocking ads, it’s to trick you into feeling safe. Like a locked empty box — looks secure but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, incorrect. Phishing sites use HTTPS to create trust, not to block advertisements. Like a locked diary with empty pages — seems safe but is misleading."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, wrong choice. HTTPS is to make phishing sites look secure, not for blocking ads. Like a closed box with a lock — looks safe but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, wrong. HTTPS in phishing is to gain your trust, not to block ads. Like a padlock on an empty chest — seems safe but is deceptive."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, incorrect. Phishing sites use HTTPS to appear trustworthy, not to block ads. Like locking an empty box — looks secure but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, wrong choice. HTTPS is about creating false trust, not ad blocking. Like a locked empty drawer — seems secure but misleading."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, wrong. HTTPS in phishing sites is to trick users into trusting the site, not block ads. Like a locked box with nothing inside — deceptive."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, incorrect. HTTPS is to create a false sense of security, not to block advertisements. Like a padlock on an empty chest — looks safe but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, that’s wrong. HTTPS in phishing is about creating trust, not blocking ads. Like a locked empty box — looks safe but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. HTTPS gives fake trust in phishing, not ad blocking. Like a locked diary with empty pages — seems secure but misleading."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. HTTPS creates a sense of security in phishing, not to block ads. Like a locked empty box — deceptive."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. HTTPS in phishing sites is to make you trust the site, not to block advertisements. Like a padlock on an empty chest — looks safe but isn’t."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, wrong. HTTPS in phishing is to trick users, not block ads. Like locking an empty box — looks safe but is misleading."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. HTTPS is to create false trust in phishing, not for ad blocking. Like a locked empty drawer — looks secure but deceptive."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. HTTPS gives a false sense of safety, not ad blocking. Like a closed box with a padlock but empty — deceptive."
+    },
+    {
+        "questionId": "Q9",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. HTTPS in phishing is about trust, not blocking ads. Like a padlocked empty chest — looks safe but is misleading."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, that’s not correct. Just closing the tab won’t protect your accounts. Like leaving your front door closed but the windows open — attackers can still get in. You should run antivirus and change your passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, wrong choice. Closing the tab is not enough. Think of it like closing a classroom door while someone has already taken your notes — your info can still be misused."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, incorrect. Closing the tab won’t remove threats. Like switching off a lamp while fire is burning — you need to act on the source. Run antivirus and update passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, wrong. Closing the tab alone doesn’t protect you. Like putting a cover on a leaking bucket — the problem still exists. Scan your system and change passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, wrong. Just closing the tab doesn’t secure your accounts. Like closing a box without locking it — the content can still be taken. Run antivirus and change passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, incorrect. Closing the tab isn’t enough. Like shutting a gate but leaving it unlocked — attackers can still enter. Take action immediately to secure your data."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, wrong choice. Closing the tab doesn’t remove risks. Like covering a leaking pipe — you need to fix the source. Scan and update passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, wrong. Closing the tab alone won’t help. Like putting a blanket over a broken window — you need proper action. Run antivirus and change passwords immediately."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, that’s not correct. Just closing the tab won’t protect your accounts. Like leaving the door closed but windows open — attackers can still get in. Scan and change passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, wrong choice. Closing the tab alone is not enough. Like closing your locker but leaving it unlocked — your info can still be taken. Take proper steps to secure it."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, incorrect. Closing the tab won’t remove the risk. Like covering a leaking pot — you need to fix the source. Run antivirus and update passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. Closing the tab is not enough. Like putting a cloth on a broken window — take proper action. Scan your system and change your passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, wrong. Just closing the tab won’t secure your data. Like shutting a door but leaving it unlocked — attackers can still enter. Run antivirus and update passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. Closing the tab alone is insufficient. Like locking a gate but leaving it open — take proper action to protect your information."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. Closing the tab won’t remove the threat. Like covering a leaking pipe — fix the source. Scan and update your passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "A",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. Closing the tab alone won’t help. Like putting a blanket over a broken window — take real action. Run antivirus and change passwords immediately."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, that’s wrong. Ignoring a phishing link won’t fix the problem if you already clicked it. Like seeing ants in the kitchen but doing nothing — they will keep coming. You should run antivirus and change passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, incorrect. Just ignoring it won’t protect your accounts. Like leaving a leaky tap running — the problem continues. Act immediately with antivirus and password changes."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, wrong choice. Ignoring the threat doesn’t remove it. Like a fire in a room — if you do nothing, it spreads. Scan and secure your system."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, wrong. Ignoring a phishing link is not safe. Like leaving your wallet open in a busy bus — it can get stolen. Take steps: antivirus scan and password change."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, wrong. Ignoring it won’t secure your accounts. Like seeing termites in the house but doing nothing — they will damage things. Run antivirus and change passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, incorrect. Just ignoring it doesn’t solve the problem. Like leaving a dripping tap — water is wasted. Take action immediately."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, wrong choice. Ignoring won’t remove risks. Like seeing smoke but ignoring it — fire can grow. Scan and update passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, wrong. Ignoring a phishing link is unsafe. Like leaving an open gate in a storm — damage can happen. Run antivirus and change passwords immediately."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, that’s wrong. Ignoring it won’t help if you already clicked. Like seeing ants but doing nothing — they will multiply. Run antivirus and change passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. Ignoring a phishing threat won’t protect your accounts. Like leaving a leaky tap running — problem continues. Act with antivirus and password changes."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. Ignoring it won’t remove the risk. Like a fire in a room — if you do nothing, it spreads. Scan and secure your system."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. Ignoring a phishing link is not safe. Like leaving your wallet open in a busy bus — it can get stolen. Run antivirus and change passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, wrong. Ignoring a phishing link won’t secure your accounts. Like seeing termites but doing nothing — damage will happen. Scan and change passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. Ignoring it won’t help. Like leaving a dripping tap — problem continues. Take action immediately."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. Ignoring won’t remove the threat. Like seeing smoke but ignoring it — fire can spread. Scan and update passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "B",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. Ignoring a phishing link is unsafe. Like leaving an open gate in a storm — damage can happen. Run antivirus and change passwords immediately."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Putha, that’s not fully correct. Restarting the device won’t remove malware or fix compromised accounts. Like restarting a leaking tap — water still flows. You should run antivirus and change passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Malli, incorrect. Restarting alone doesn’t secure your data. Like shaking a tree but not picking the fallen fruits — the problem remains. Scan your system and update passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Putha, wrong choice. Restarting won’t remove phishing effects. Like closing a book but the ink is spilled — the damage is done. Run antivirus and change passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Malli, wrong. Restarting doesn’t protect your accounts. Like putting a cover on a leaking bucket — the leak continues. Scan and update passwords immediately."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Putha, incorrect. Restarting the device won’t secure your accounts if compromised. Like closing a door but leaving windows open — threats remain. Run antivirus and change passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Malli, wrong choice. Restarting alone does not fix phishing impacts. Like shaking a table but leaving broken glass — the hazard persists. Take proper actions."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Putha, wrong. Restarting won’t remove malware or stolen data. Like closing a gate but leaving a hole — threats remain. Scan and update passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Male",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Malli, incorrect. Restarting doesn’t secure your accounts. Like putting a bandage on a leaking pipe — the leak continues. Run antivirus and change passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, wrong. Restarting the device won’t fix the problem. Like closing the door but leaving windows open — attackers can still get in. Scan and change passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. Restarting doesn’t remove phishing threats. Like shaking a tree but leaving the fruits on the ground — problem remains. Take action immediately."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. Restarting won’t protect your accounts. Like closing a book but the ink is spilled — damage is done. Run antivirus and update passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "School",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. Restarting alone doesn’t help. Like putting a cover on a leaking bucket — the leak remains. Scan and change passwords immediately."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "O/L"
+        },
+        "explanation": "Duwa, wrong. Restarting won’t secure compromised accounts. Like closing a door but leaving windows open — problem persists. Run antivirus and update passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "A/L"
+        },
+        "explanation": "Akka, incorrect. Restarting alone doesn’t fix phishing risks. Like shaking a table but leaving broken glass — hazard remains. Take proper action."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "HND"
+        },
+        "explanation": "Duwa, wrong choice. Restarting won’t remove malware or stolen info. Like closing a gate but leaving a hole — threats remain. Scan and update passwords."
+    },
+    {
+        "questionId": "Q10",
+        "option": "D",
+        "profile": {
+            "gender": "Female",
+            "proficiency": "High",
+            "education": "Degree"
+        },
+        "explanation": "Akka, wrong. Restarting doesn’t secure your accounts. Like putting a bandage on a leaking pipe — the leak continues. Run antivirus and change passwords immediately."
+    }
+]

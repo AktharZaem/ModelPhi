@@ -9,54 +9,54 @@ class PhishingEducationalManager:
             'beginner': {
                 'articles': [
                     {
-                        'title': 'What is Phishing? - FTC Guide',
-                        'url': 'https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams',
-                        'description': 'Official FTC guide on recognizing and avoiding phishing scams'
+                        'title': 'Phishing Awareness Basics',
+                        'url': 'https://www.ftc.gov/news-events/topics/identity-theft/phishing-scams',
+                        'description': 'FTC guide on phishing scams and protection'
                     },
                     {
-                        'title': 'Email Security Basics - CISA',
-                        'url': 'https://www.cisa.gov/email-security',
-                        'description': 'CISA guide to email security fundamentals'
+                        'title': 'Recognizing Phishing Emails',
+                        'url': 'https://www.consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams',
+                        'description': 'FTC consumer guide to spotting phishing'
                     },
                     {
-                        'title': 'Phishing Prevention Tips',
-                        'url': 'https://www.cyber.gov.au/acsc/view-all-content/threats/phishing',
-                        'description': 'Australian Cyber Security Centre phishing prevention guide'
+                        'title': 'Email Security Tips',
+                        'url': 'https://www.cisa.gov/secure-our-world/recognize-and-report-phishing',
+                        'description': 'CISA phishing recognition and reporting guide'
                     }
                 ],
                 'videos': [
                     {
-                        'title': 'Phishing Awareness 101',
+                        'title': 'Phishing 101',
                         'platform': 'Educational Content',
-                        'description': 'Basic concepts of phishing and email security'
+                        'description': 'Basic concepts of phishing attacks'
                     }
                 ]
             },
             'intermediate': {
                 'articles': [
                     {
-                        'title': 'Advanced Email Security - NIST',
-                        'url': 'https://csrc.nist.gov/publications/detail/sp/800-177/rev-1/final',
-                        'description': 'NIST guidelines for secure email systems'
+                        'title': 'Advanced Phishing Techniques',
+                        'url': 'https://www.cisa.gov/topics/cybersecurity-best-practices/phishing',
+                        'description': 'CISA advanced phishing awareness'
                     },
                     {
-                        'title': 'Phishing Techniques and Countermeasures',
-                        'url': 'https://www.cisa.gov/phishing-guidance',
-                        'description': 'CISA comprehensive phishing guidance'
+                        'title': 'Spear Phishing Defense',
+                        'url': 'https://www.nist.gov/cyberframework/spear-phishing',
+                        'description': 'NIST spear phishing prevention strategies'
                     }
                 ]
             },
             'advanced': {
                 'articles': [
                     {
-                        'title': 'Enterprise Anti-Phishing Solutions',
-                        'url': 'https://csrc.nist.gov/projects/phishing-resistance',
-                        'description': 'NIST phishing resistance frameworks'
+                        'title': 'Enterprise Phishing Protection',
+                        'url': 'https://www.cisa.gov/topics/cybersecurity-best-practices/phishing',
+                        'description': 'Advanced enterprise phishing defense'
                     },
                     {
-                        'title': 'Advanced Threat Protection',
-                        'url': 'https://www.cisa.gov/advanced-persistent-threats',
-                        'description': 'CISA guide to advanced persistent threats and protection'
+                        'title': 'Phishing Threat Intelligence',
+                        'url': 'https://www.mitre.org/capabilities/cybersecurity/overview/cybersecurity-blog/phishing-awareness-month',
+                        'description': 'MITRE phishing threat analysis'
                     }
                 ]
             }
@@ -86,72 +86,70 @@ Based on your assessment, here are key areas to focus on:
 """
 
         area_explanations = {
-            'email_recognition': """
-• EMAIL PHISHING IDENTIFICATION: Learn to spot suspicious emails
-  - Check sender address carefully for misspellings or unusual domains
-  - Look for urgent language and threats ("Act now or your account will be closed!")
-  - Verify unexpected requests through independent contact methods
-  - Be suspicious of generic greetings like "Dear Customer"
+            'email_verification': """
+• EMAIL VERIFICATION: Always check sender details before responding
+  - Verify email addresses don't match but look similar (spoofing)
+  - Check for proper signatures and official contact information
+  - Use email authentication features in your email client
+  - Be suspicious of unsolicited emails asking for personal information
 """,
-            'link_safety': """
-• LINK VERIFICATION: Safely analyze suspicious links
-  - Hover over links without clicking to preview the destination
-  - Look for URL shorteners that hide the real destination
-  - Check for subtle misspellings in domain names (amazon vs amazom)
-  - Use link checkers or sandbox environments for suspicious URLs
+            'link_analysis': """
+• LINK ANALYSIS: Never click links without verification
+  - Hover over links to see the actual URL before clicking
+  - Look for HTTPS and valid certificates on websites
+  - Avoid shortened URLs from unknown sources
+  - Type website addresses manually for important sites
 """,
-            'password_protection': """
-• PASSWORD & CREDENTIAL SECURITY: Protect your login information
-  - Never provide passwords via email or phone calls
-  - Use unique passwords for different accounts
-  - Enable two-factor authentication wherever possible
-  - Use official websites for password resets, not email links
-""",
-            'incident_response': """
-• PHISHING INCIDENT RESPONSE: Know what to do if attacked
-  - Immediately change passwords if credentials were compromised
-  - Report the phishing attempt to your IT department or relevant authorities
-  - Monitor accounts for unauthorized activity
-  - Run antivirus scans if you clicked suspicious links or attachments
+            'attachment_safety': """
+• ATTACHMENT SAFETY: Handle email attachments with care
+  - Never open attachments from unknown senders
+  - Scan attachments with antivirus before opening
+  - Be cautious of unexpected attachments even from known contacts
+  - Use secure file sharing services instead of email attachments
 """,
             'social_engineering': """
-• SOCIAL ENGINEERING AWARENESS: Recognize manipulation tactics
-  - Be skeptical of emotional appeals and urgent requests
-  - Verify requests for sensitive information through independent channels
-  - Don't trust caller ID or email headers as they can be spoofed
-  - When in doubt, hang up or delete the email and contact directly
+• SOCIAL ENGINEERING: Recognize manipulation tactics
+  - Be wary of urgent requests for immediate action
+  - Question emails claiming to be from authority figures
+  - Verify requests through official channels, not email
+  - Don't share sensitive information via email
+""",
+            'password_security': """
+• PASSWORD SECURITY: Protect your login credentials
+  - Never share passwords via email or phone
+  - Use unique passwords for different accounts
+  - Enable two-factor authentication wherever possible
+  - Use password managers for secure storage
 """
         }
 
         for area in weak_areas:
-            for key, explanation in area_explanations.items():
-                if key in area.lower():
-                    content += explanation
-                    break
+            if area in area_explanations:
+                content += area_explanations[area]
 
         content += f"""
 
 🔧 PRACTICAL EXERCISES:
-1. Practice identifying phishing emails using online simulators
-2. Set up email filters and spam protection
-3. Learn to use your browser's security features
-4. Practice safe link clicking and URL analysis
+1. Perform a phishing awareness audit of your email inbox
+2. Set up email filters and security settings
+3. Practice identifying phishing attempts
+4. Learn to report suspicious emails to your IT/security team
 
 🌟 KNOWLEDGE LEVEL: {knowledge_level.upper()}
-🎯 Goal: Achieve Expert level phishing resistance!
+🎯 Goal: Achieve Expert level phishing detection and prevention!
 """
         return content
 
     def get_interactive_tips(self) -> List[str]:
         """Get interactive phishing security tips"""
         return [
-            "💡 Think before you click - hover over links to see where they really go",
-            "🔍 Verify unexpected requests by contacting the sender through official channels",
-            "🚫 Never provide sensitive information via email, even if it looks legitimate",
-            "📧 Check email addresses carefully - scammers often use similar-looking domains",
-            "🔒 Enable two-factor authentication to add an extra layer of security",
-            "📞 If someone calls asking for information, hang up and call them back using official numbers",
-            "🧠 Trust your instincts - if something feels suspicious, it probably is"
+            "💡 Verify sender email addresses carefully - check for slight variations",
+            "🔍 Hover over links before clicking to see the real destination",
+            "🚫 Never share passwords or sensitive info via email",
+            "📧 Be suspicious of urgent requests for immediate action",
+            "🔒 Use two-factor authentication on all important accounts",
+            "📱 Report suspicious emails to your email provider or IT team",
+            "🛡️ Keep your email client and antivirus software updated"
         ]
 
     def display_resources(self, knowledge_level: str):
@@ -193,8 +191,8 @@ Based on your assessment, here are key areas to focus on:
         else:
             print("\n🔍 Select your current knowledge level:")
             print("1. Beginner - New to phishing awareness")
-            print("2. Intermediate - Some phishing security knowledge")
-            print("3. Advanced - Strong cybersecurity background")
+            print("2. Intermediate - Some phishing knowledge")
+            print("3. Advanced - Strong phishing detection skills")
 
             choice = input("\nEnter your choice (1-3): ").strip()
             level_map = {'1': 'beginner', '2': 'intermediate', '3': 'advanced'}
@@ -207,4 +205,8 @@ Based on your assessment, here are key areas to focus on:
         for tip in tips[:4]:
             print(f"   {tip}")
 
-        print(f"\n🎯 CHALLENGE: Practice identifying phishing emails this week!")
+        print(f"\n🎯 CHALLENGE: Review your email security settings this week!")
+        for tip in tips[:4]:
+            print(f"   {tip}")
+
+        print(f"\n🎯 CHALLENGE: Review your email security settings this week!")

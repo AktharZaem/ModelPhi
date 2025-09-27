@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import os
 import requests
+import re
 from phishing_knowledge_enhancer import PhishingKnowledgeEnhancer
 
 
@@ -14,15 +15,15 @@ class PhishingTester:
         self.model = None
         self.feature_names = None
         self.enhancer = PhishingKnowledgeEnhancer()
-        self.gemini_api_key = os.getenv(
-            'GEMINI_API_KEY') or "AIzaSyDuDJ5uyh3DBAjEFTHaCz-g25fH7hp72Yc"
+        self.user_profile = None
+        self.explanation_bank = None
         self.load_components()
 
     def load_components(self):
-        """Load trained model and answer sheet"""
+        """Load trained model, answer sheet, and explanation bank"""
         try:
             # Load answer sheet and parse the nested structure
-            with open('answer_sheetphi.json', 'r') as f:
+            with open('answer_sheetphi.json', 'r', encoding='utf-8') as f:
                 data = json.load(f)
 
             self.answer_sheet = {}
@@ -30,21 +31,43 @@ class PhishingTester:
 
             if 'questions' in data and isinstance(data['questions'], list):
                 for q_item in data['questions']:
-                    question_text = q_item['question']
+                    question_text = q_item.get('question')
                     options_dict = {}
 
-                    for option in q_item['options']:
-                        options_dict[option['text']] = {
-                            'weight': option['marks'],
-                            'level': option['level']
+                    for option in q_item.get('options', []):
+                        options_dict[option.get('text')] = {
+                            'weight': option.get('marks'),
+                            'level': option.get('level')
                         }
 
-                    self.answer_sheet[question_text] = options_dict
-                    self.questions_data.append(q_item)
+                    if question_text:
+                        self.answer_sheet[question_text] = options_dict
+                        self.questions_data.append(q_item)
 
-            # Load trained model
-            self.model = joblib.load('phishing_model.pkl')
-            self.feature_names = joblib.load('phishing_feature_names.pkl')
+            # Load explanation bank
+            try:
+                with open('ExplanationBankphi.json', 'r', encoding='utf-8') as f:
+                    self.explanation_bank = json.load(f)
+                print(
+                    f"✅ Loaded {len(self.explanation_bank)} explanations from ExplanationBank")
+            except FileNotFoundError:
+                print(
+                    "⚠️ ExplanationBankphi.json not found. Using fallback explanations.")
+                self.explanation_bank = []
+
+            # Load trained model and feature names if available
+            try:
+                self.model = joblib.load('phishing_model.pkl')
+                print("✅ Loaded trained model 'phishing_model.pkl'")
+            except Exception as e:
+                print(f"⚠️ Could not load model: {e}")
+                self.model = None
+
+            try:
+                self.feature_names = joblib.load(
+                    'phishing_feature_names.pkl')
+            except Exception:
+                self.feature_names = None
 
             print("Phishing components loaded successfully!")
             print(f"Loaded {len(self.questions_data)} questions for quiz")
@@ -53,24 +76,120 @@ class PhishingTester:
             print(f"Error loading components: {e}")
             print("Please run phishing_model_trainer.py first to train the model")
 
+    def collect_user_profile(self):
+        """Collect user profile information before starting the quiz"""
+        print("\n=== User Profile Setup ===")
+        print("Please provide some basic information to get personalized feedback.\n")
+
+        # Collect Name
+        print("1. Enter Your Name:")
+        while True:
+            name = input("Full Name: ").strip()
+            if name and len(name) >= 2:
+                break
+            else:
+                print("Please enter a valid name (at least 2 characters)!")
+
+        # Collect Gender
+        print("\n2. Select Your Gender:")
+        print("   1. Male")
+        print("   2. Female")
+
+        while True:
+            try:
+                gender_choice = int(input("Enter your choice (1-2): "))
+                if gender_choice == 1:
+                    gender = "Male"
+                    break
+                elif gender_choice == 2:
+                    gender = "Female"
+                    break
+                else:
+                    print("Please enter 1 or 2!")
+            except ValueError:
+                print("Please enter a valid number!")
+
+        # Collect Education Level
+        print("\n3. Select Your Education Level:")
+        print("   1. O/L (Ordinary Level)")
+        print("   2. A/L (Advanced Level)")
+        print("   3. HND (Higher National Diploma)")
+        print("   4. Degree (University Degree)")
+
+        while True:
+            try:
+                education_choice = int(input("Enter your choice (1-4): "))
+                if education_choice == 1:
+                    education = "O/L"
+                    break
+                elif education_choice == 2:
+                    education = "A/L"
+                    break
+                elif education_choice == 3:
+                    education = "HND"
+                    break
+                elif education_choice == 4:
+                    education = "Degree"
+                    break
+                else:
+                    print("Please enter 1, 2, 3, or 4!")
+            except ValueError:
+                print("Please enter a valid number!")
+
+        # Collect Proficiency Level
+        print("\n4. Select Your IT/Technology Proficiency:")
+        print("   1. School Level (Basic computer/smartphone use)")
+        print("   2. High Education Level (Advanced computer/technology skills)")
+
+        while True:
+            try:
+                proficiency_choice = int(input("Enter your choice (1-2): "))
+                if proficiency_choice == 1:
+                    proficiency = "School"
+                    break
+                elif proficiency_choice == 2:
+                    proficiency = "High Education"
+                    break
+                else:
+                    print("Please enter 1 or 2!")
+            except ValueError:
+                print("Please enter a valid number!")
+
+        self.user_profile = {
+            "name": name,
+            "gender": gender,
+            "education": education,
+            "proficiency": proficiency
+        }
+
+        print(
+            f"\n✅ Profile saved: {name}, {gender}, {education}, {proficiency}")
+        print("This information will be used to provide personalized explanations.\n")
+
+        return self.user_profile
+
     def conduct_quiz(self):
         """Conduct interactive quiz with user"""
+        if not self.questions_data:
+            print("No questions loaded. Exiting quiz.")
+            return {}, {}
+
         print("\n=== Phishing Awareness Security Quiz ===")
-        print("Please answer the following 10 questions about phishing awareness.\n")
+        print("Please answer the following questions about phishing awareness.\n")
 
         user_responses = {}
         user_scores = {}
 
         for i, q_item in enumerate(self.questions_data, 1):
-            question = q_item['question']
-            options = q_item['options']
+            question = q_item.get('question', 'Unknown question')
+            options = q_item.get('options', [])
 
             print(f"Question {i}: {question}")
             print("\nOptions:")
 
             # Display options
             for j, option in enumerate(options, 1):
-                print(f"{j}. {option['text']}")
+                print(f"{j}. {option.get('text', '')}")
 
             # Get user input
             while True:
@@ -79,15 +198,15 @@ class PhishingTester:
                         input(f"\nEnter your choice (1-{len(options)}): "))
                     if 1 <= choice <= len(options):
                         selected_option = options[choice - 1]
-                        selected_answer = selected_option['text']
+                        selected_answer = selected_option.get('text', '')
 
                         user_responses[question] = selected_answer
 
                         # Get score and level for this answer
                         user_scores[question] = {
                             'answer': selected_answer,
-                            'score': selected_option['marks'],
-                            'level': selected_option['level']
+                            'score': selected_option.get('marks', 0),
+                            'level': selected_option.get('level', 'basic')
                         }
                         break
                     else:
@@ -101,10 +220,14 @@ class PhishingTester:
 
     def calculate_results(self, user_scores):
         """Calculate overall results and recommendations"""
-        total_score = sum(score_info['score']
+        if not user_scores:
+            return 0, 0.0, 'Beginner'
+
+        total_score = sum(score_info.get('score', 0)
                           for score_info in user_scores.values())
         max_possible_score = len(user_scores) * 10
-        percentage = (total_score / max_possible_score) * 100
+        percentage = (total_score / max_possible_score) * \
+            100 if max_possible_score > 0 else 0
 
         # Determine overall level
         if percentage >= 75:
@@ -118,195 +241,163 @@ class PhishingTester:
 
         return total_score, percentage, overall_level
 
-    def get_gemini_explanation(self, question, current_level, overall_level):
-        """Get personalized explanation from Gemini API"""
-        if not self.gemini_api_key:
-            return self.get_detailed_explanation(question, current_level, overall_level)
+    def get_explanation_from_bank(self, question_id, option_label, user_profile):
+        """Get personalized explanation from ExplanationBank based on user profile"""
+        if not self.explanation_bank:
+            return self.get_detailed_explanation(question_id, "basic", "basic")
 
-        try:
-            # Clean question text for API call
-            clean_question = question.replace('"', "'").replace('\n', ' ')
-            
-            prompt = f"""
-You are an expert cybersecurity educator specializing in phishing awareness and email security.
+        # Normalize question ID (Q01 -> Q1, Q1 stays Q1)
+        normalized_qid = question_id
+        if isinstance(question_id, str) and question_id.startswith('Q'):
+            match = re.match(r"Q0*(\d+)", question_id)
+            if match:
+                normalized_qid = f"Q{match.group(1)}"
 
-CONTEXT:
-- User's Question: "{clean_question}"
-- User's Current Answer Level: {current_level}
-- User's Overall Knowledge Level: {overall_level}
+        # Find matching explanation
+        for explanation in self.explanation_bank:
+            exp_qid = explanation.get("questionId", "")
+            exp_option = explanation.get("option", "")
+            exp_profile = explanation.get("profile", {})
 
-TASK:
-Provide a personalized explanation to help this user understand this phishing concept and advance to the next level.
+            # Normalize explanation question ID too
+            if isinstance(exp_qid, str) and exp_qid.startswith('Q'):
+                match = re.match(r"Q0*(\d+)", exp_qid)
+                if match:
+                    exp_qid = f"Q{match.group(1)}"
 
-GUIDELINES:
-- If user is at "wrong" level, explain the basics very simply (like explaining to a child)
-- If user is at "beginner" level, provide more detailed explanations with examples
-- If user is at "intermediate" level, give advanced concepts and best practices
-- If user is at "advanced" level, provide expert-level insights and enterprise considerations
+            # Check if question ID and option match
+            if (exp_qid == normalized_qid and exp_option == option_label):
+                # Check if profile matches
+                profile_match = (
+                    exp_profile.get("gender", "") == user_profile.get("gender", "") and
+                    exp_profile.get("proficiency", "") == user_profile.get("proficiency", "") and
+                    exp_profile.get("education", "") == user_profile.get(
+                        "education", "")
+                )
 
-FORMAT:
-- Use emojis and clear structure
-- Include practical examples
-- Explain WHY this matters for their security and privacy
-- Give actionable next steps
-- Keep it engaging and educational
-- Maximum 300 words
+                if profile_match:
+                    return f"\nPERSONALIZED EXPLANATION:\n{explanation.get('explanation', '')}"
 
-Please provide a comprehensive explanation that will help them improve from their current level to the next level.
-"""
+        # If no exact match found, try to find closest match (same question, any profile)
+        for explanation in self.explanation_bank:
+            exp_qid = explanation.get("questionId", "")
+            exp_option = explanation.get("option", "")
 
-            model_names = [
-                "gemini-1.5-flash",
-                "gemini-1.5-pro", 
-                "gemini-1.0-pro",
-                "gemini-pro"
-            ]
+            # Normalize explanation question ID
+            if isinstance(exp_qid, str) and exp_qid.startswith('Q'):
+                match = re.match(r"Q0*(\d+)", exp_qid)
+                if match:
+                    exp_qid = f"Q{match.group(1)}"
 
-            for model_name in model_names:
-                try:
-                    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model_name}:generateContent?key={self.gemini_api_key}"
+            if (exp_qid == normalized_qid and exp_option == option_label):
+                profile_desc = f"{explanation.get('profile', {}).get('gender', 'General')}, {explanation.get('profile', {}).get('proficiency', 'General')}, {explanation.get('profile', {}).get('education', 'General')}"
+                return f"\nRELATED EXPLANATION (for {profile_desc}):\n{explanation.get('explanation', '')}"
 
-                    headers = {
-                        "Content-Type": "application/json"
-                    }
+        # Fallback explanation
+        return f"\nFALLBACK EXPLANATION:\nFor this question about phishing awareness, it's important to understand the security implications of your choice. Consider reviewing phishing best practices and how they relate to your online safety."
 
-                    data = {
-                        "contents": [{
-                            "parts": [{
-                                "text": prompt
-                            }]
-                        }],
-                        "generationConfig": {
-                            "temperature": 0.7,
-                            "topK": 40,
-                            "topP": 0.95,
-                            "maxOutputTokens": 500,
-                        }
-                    }
+    def get_option_label_from_answer(self, question, user_answer):
+        """Get the option label (A, B, C, D) from the user's answer text"""
+        # Find the question in questions_data
+        for q_item in self.questions_data:
+            if q_item.get('question') == question:
+                for option in q_item.get('options', []):
+                    if option.get('text') == user_answer:
+                        return option.get('label')
+        return "A"  # Default fallback
 
-                    print(f"📚 AI analyzing for better learning experience...")
-                    response = requests.post(url, headers=headers, json=data, timeout=30)
+    def get_detailed_explanation(self, question_id, current_level, desired_level):
+        """Basic fallback detailed explanation generator (used when ExplanationBank missing)"""
+        return (
+            f"Detailed guidance for {question_id}:\n"
+            "Review which phishing tactics are used and why they work. "
+            "Consider learning about email security and verification methods."
+        )
 
-                    if response.status_code == 200:
-                        result = response.json()
-                        if 'candidates' in result and len(result['candidates']) > 0:
-                            generated_text = result['candidates'][0]['content']['parts'][0]['text']
-                            return f"\nPERSONALIZED EXPLANATION:\n{generated_text}"
-                    else:
-                        continue
+    def save_to_assessment_database(self, user_data):
+        """Save assessment results to a structured database file"""
+        import datetime
 
-                except Exception as model_error:
-                    continue
+        database_file = 'phishing_assessment_database.json'
 
-            print("⚠️ Using fallback explanation")
-            return self.get_detailed_explanation(question, current_level, overall_level)
-
-        except Exception as e:
-            print(f"⚠️ Error calling API: {e}")
-            return self.get_detailed_explanation(question, current_level, overall_level)
-
-    def get_detailed_explanation(self, question, current_level, overall_level):
-        """Get detailed explanation based on question and user's overall knowledge level"""
-        
-        # Clean question for matching
-        clean_question = question.lower().replace('"', '').replace('\n', ' ')
-        
-        explanations = {
-            "email": {
-                "wrong": """
-🎣 WHAT IS PHISHING?
-Think of phishing like a fisherman trying to catch fish with fake bait. Scammers send fake emails pretending to be from banks, companies, or people you know to "catch" your personal information.
-
-🚨 WHAT TO DO:
-• NEVER reply with personal details like passwords, credit card numbers, or social security numbers
-• Don't click suspicious links or attachments
-• If it seems urgent or scary, it's probably fake
-• When in doubt, contact the company directly using their official website or phone number
-
-💡 SIMPLE RULE: Real companies will NEVER ask for passwords or personal details via email!
-""",
-                "beginner": """
-🔒 UNDERSTANDING PHISHING ATTACKS:
-Phishing emails are designed to steal your personal information by impersonating legitimate organizations or creating a sense of urgency.
-
-🛡️ BEST PRACTICES:
-• Always verify the sender's email address carefully
-• Look for spelling and grammar mistakes in the email
-• Check if the email uses generic greetings like "Dear Customer"
-• Hover over links without clicking to see the real destination
-• Use two-factor authentication on important accounts
-
-⚖️ VERIFICATION: When suspicious, independently verify by contacting the organization through official channels
-""",
-                "intermediate": """
-🎯 ADVANCED PHISHING DEFENSE:
-Implementing comprehensive anti-phishing strategies requires understanding attack vectors and implementing layered security controls.
-
-🔬 ENTERPRISE CONSIDERATIONS:
-• Deploy email security gateways with advanced threat protection
-• Implement DMARC, SPF, and DKIM email authentication protocols
-• Conduct regular phishing simulation training
-• Monitor and analyze email headers for authentication failures
-• Establish incident response procedures for phishing attacks
-
-🏢 ORGANIZATIONAL SECURITY: Apply security awareness training and implement phishing-resistant authentication methods
-"""
-            }
+        # Create assessment record (without detailed responses and scores)
+        assessment_record = {
+            "timestamp": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "name": user_data['profile']['name'],
+            "gender": user_data['profile']['gender'],
+            "education_level": user_data['profile']['education'],
+            "proficiency": user_data['profile']['proficiency'],
+            "total_score": user_data['total_score'],
+            "percentage": user_data['percentage'],
+            "overall_knowledge_level": user_data['overall_level'],
+            "category": "Phishing Awareness"
         }
 
-        # Determine category based on question content
-        if any(keyword in clean_question for keyword in ['email', 'confirm', 'details', 'password', 'login', 'pop-up', 'link']):
-            category = 'email'
-        else:
-            category = 'email'  # Default to email category
+        # Load existing database or create new one
+        try:
+            with open(database_file, 'r', encoding='utf-8') as f:
+                database = json.load(f)
+        except FileNotFoundError:
+            database = {
+                "metadata": {
+                    "created": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "category": "Phishing Awareness Security Assessment",
+                    "description": "Assessment results database for phishing awareness"
+                },
+                "assessments": []
+            }
 
-        if category in explanations and current_level.lower() in explanations[category]:
-            return explanations[category][current_level.lower()]
-        else:
-            return f"""
-📚 LEARNING OPPORTUNITY:
-This question tests your understanding of phishing awareness. The key is to think about whether the request seems legitimate and what a scammer might be trying to accomplish.
+        # Add new assessment
+        database["assessments"].append(assessment_record)
 
-🎯 NEXT STEPS:
-• Research phishing tactics and red flags online
-• Practice identifying suspicious emails
-• Learn about email security best practices
-• Consider taking a cybersecurity awareness course
+        # Save updated database
+        with open(database_file, 'w', encoding='utf-8') as f:
+            json.dump(database, f, indent=2, ensure_ascii=False)
 
-💡 REMEMBER: When in doubt, verify through official channels before taking action!
-"""
+        print(f"📊 Assessment saved to database: {database_file}")
+        print(f"Total assessments in database: {len(database['assessments'])}")
+
+        return database_file
 
     def provide_feedback(self, user_scores, overall_level, percentage):
         """Provide detailed feedback and recommendations"""
         print("\n" + "="*60)
-        print("PHISHING AWARENESS QUIZ RESULTS & PERSONALIZED FEEDBACK")
+        print("PHISHING QUIZ RESULTS & PERSONALIZED FEEDBACK")
         print("="*60)
 
-        total_score = sum(score_info['score']
+        total_score = sum(score_info.get('score', 0)
                           for score_info in user_scores.values())
         print(f"Total Score: {total_score}/100")
         print(f"Percentage: {percentage:.1f}%")
-        print(f"Overall Phishing Security Level: {overall_level}")
+        print(f"Overall Phishing Awareness Level: {overall_level}")
+
+        # Display user profile
+        if self.user_profile:
+            print(f"Name: {self.user_profile['name']}")
+            print(
+                f"Profile: {self.user_profile['gender']}, {self.user_profile['education']}, {self.user_profile['proficiency']}")
 
         # Provide level-specific encouragement
         if percentage >= 75:
-            print("\n🎉 Congratulations! You're PHISHING-RESISTANT!")
+            print("\n🎉 Congratulations! You're in the SAFE ZONE!")
             print("Your phishing awareness is excellent.")
-            print("You can identify and avoid most phishing attempts effectively.")
+            print(
+                "You understand how to protect yourself from phishing attacks and online scams.")
         elif percentage >= 50:
             print("\n📈 Good Progress! You're at INTERMEDIATE level!")
-            print("You have solid phishing awareness but there's room for improvement.")
-            print("Focus on the areas below to reach expert level protection.")
+            print("You have a solid foundation but there's room for improvement.")
+            print(
+                "Focus on the areas below to reach expert level and better protect your online identity.")
         elif percentage >= 25:
             print("\n📚 You're at BASIC level - Learning Time!")
-            print("Don't worry! Phishing can be tricky to detect.")
             print(
-                "Think of phishing like strangers trying to trick you - be suspicious of unexpected requests!")
+                "Don't worry! Everyone starts somewhere. Phishing can be tricky to spot.")
+            print("Think of it like this: Would you give your password to a stranger on the street? Same with suspicious emails!")
         else:
             print("\n🌱 You're just getting started - BEGINNER level!")
+            print("No problem at all! Let's learn together step by step.")
             print(
-                "No problem at all! Let's learn how to spot phishing attempts together.")
-            print("Remember: When in doubt, don't click or share personal information!")
+                "Think of your email like your front door - you need to check who's knocking before opening!")
 
         print("\n" + "-"*60)
         print("DETAILED ANALYSIS BY QUESTION:")
@@ -315,54 +406,72 @@ This question tests your understanding of phishing awareness. The key is to thin
         improvement_areas = []
 
         for i, (question, score_info) in enumerate(user_scores.items(), 1):
-            level = score_info['level']
-            score = score_info['score']
+            level = score_info.get('level', 'basic')
+            score = score_info.get('score', 0)
+            user_answer = score_info.get('answer', '')
 
             print(f"\nQuestion {i}: {question}")
             print(f"Your Answer Level: {level.upper()} ({score}/10 points)")
 
-            if score < 10:
+            if score < 10:  # Not perfect answer
                 improvement_areas.append({
                     'question': question,
                     'current_level': level,
                     'score': score
                 })
 
-                ai_explanation = self.get_gemini_explanation(
-                    question, level, overall_level)
-                print(ai_explanation)
+                # Get question ID from the questions_data
+                question_id = None
+                option_label = None
+                for q_item in self.questions_data:
+                    if q_item.get('question') == question:
+                        question_id = q_item.get('questionId')
+                        option_label = self.get_option_label_from_answer(
+                            question, user_answer)
+                        break
 
-        # Overall recommendations
+                if question_id and option_label and self.user_profile:
+                    # Get explanation from ExplanationBank
+                    explanation = self.get_explanation_from_bank(
+                        question_id, option_label, self.user_profile)
+                    print(explanation)
+                else:
+                    # Fallback to basic explanation
+                    print(f"\nBASIC EXPLANATION:\nThis question tests your understanding of phishing. Consider researching this topic further to improve your knowledge.")
+
+        # Overall recommendations with level-appropriate language
         if improvement_areas:
             print("\n" + "="*60)
             print("PRIORITY IMPROVEMENT AREAS:")
             print("="*60)
 
+            # Sort by score (lowest first)
             improvement_areas.sort(key=lambda x: x['score'])
 
-            for area in improvement_areas[:3]:
+            for area in improvement_areas[:3]:  # Top 3 priority areas
                 print(f"\n🎯 Priority Question: {area['question']}")
                 print(
                     f"   Your Current Level: {area['current_level'].upper()}")
 
+                # Get enhanced advice from knowledge enhancer
                 enhanced_advice = self.enhancer.get_detailed_guidance(
-                    area['question'], area['current_level']
-                )
+                    area['question'], area['current_level'])
                 print(f"   📚 Learning Path: {enhanced_advice}")
 
+        # Add level-appropriate closing message
         print("\n" + "="*60)
         if overall_level.lower() == 'beginner':
-            print("🌟 REMEMBER: Every cybersecurity expert started as a beginner!")
-            print("Take your time to learn - your digital safety is worth it!")
+            print("🌟 REMEMBER: Every expert was once a beginner!")
+            print("Take your time to learn - your online safety is worth it!")
         elif overall_level.lower() == 'basic':
             print("🚀 YOU'RE MAKING PROGRESS!")
-            print("Keep learning about phishing - you're building strong defenses!")
+            print("Keep learning and practicing - you're on the right track!")
         elif overall_level.lower() == 'intermediate':
             print("🎯 ALMOST THERE!")
             print("Focus on the priority areas above to reach expert level!")
         else:
             print("🏆 EXCELLENT WORK!")
-            print("You're well-equipped to identify and avoid phishing attacks!")
+            print("You're well-equipped to spot and avoid phishing attacks!")
 
     def run_assessment(self):
         """Run complete assessment process"""
@@ -370,6 +479,9 @@ This question tests your understanding of phishing awareness. The key is to thin
             print(
                 "Error: Model or answer sheet not loaded. Please train the model first.")
             return
+
+        # Collect user profile first
+        self.collect_user_profile()
 
         # Conduct quiz
         user_responses, user_scores = self.conduct_quiz()
@@ -381,8 +493,9 @@ This question tests your understanding of phishing awareness. The key is to thin
         # Provide feedback
         self.provide_feedback(user_scores, overall_level, percentage)
 
-        # Save user results
+        # Save user results including profile
         user_data = {
+            'profile': self.user_profile,
             'responses': user_responses,
             'scores': user_scores,
             'total_score': total_score,
@@ -390,14 +503,19 @@ This question tests your understanding of phishing awareness. The key is to thin
             'overall_level': overall_level
         }
 
-        with open('phishing_assessment_results.json', 'w') as f:
-            json.dump(user_data, f, indent=2)
+        # Save to individual results file
+        with open('phishing_assessment_results.json', 'w', encoding='utf-8') as f:
+            json.dump(user_data, f, indent=2, ensure_ascii=False)
 
-        print(f"\n📄 Results saved to 'phishing_assessment_results.json'")
+        # Save to structured database
+        database_file = self.save_to_assessment_database(user_data)
+
+        print(f"\n📄 Individual results saved to 'phishing_assessment_results.json'")
+        print(f"📊 Results added to assessment database: {database_file}")
 
         return {
             'score': percentage,
-            'weak_areas': [question for question, score_info in user_scores.items() if score_info['score'] < 7]
+            'weak_areas': [question for question, score_info in user_scores.items() if score_info.get('score', 0) < 7]
         }
 
 
