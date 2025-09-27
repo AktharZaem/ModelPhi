@@ -315,7 +315,7 @@ class PhishingTester:
         )
 
     def save_to_assessment_database(self, user_data):
-        """Save assessment results to a structured database file"""
+        """Save assessment results to a structured database file, updating if name exists"""
         import datetime
 
         database_file = 'phishing_assessment_database.json'
@@ -347,8 +347,19 @@ class PhishingTester:
                 "assessments": []
             }
 
-        # Add new assessment
-        database["assessments"].append(assessment_record)
+        # Check if name already exists and update if it does
+        assessments = database.get('assessments', [])
+        name_exists = False
+        for i, existing in enumerate(assessments):
+            if existing['name'].lower() == assessment_record['name'].lower():
+                assessments[i] = assessment_record
+                name_exists = True
+                break
+
+        if not name_exists:
+            assessments.append(assessment_record)
+
+        database['assessments'] = assessments
 
         # Save updated database
         with open(database_file, 'w', encoding='utf-8') as f:
@@ -515,7 +526,9 @@ class PhishingTester:
 
         return {
             'score': percentage,
-            'weak_areas': [question for question, score_info in user_scores.items() if score_info.get('score', 0) < 7]
+            'weak_areas': [question for question, score_info in user_scores.items() if score_info.get('score', 0) < 7],
+            'profile': self.user_profile,
+            'level': overall_level
         }
 
 

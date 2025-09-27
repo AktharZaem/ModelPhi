@@ -174,6 +174,7 @@ def main():
     education_manager = PhishingEducationalManager()
     last_quiz_score = None
     weak_areas = []
+    last_assessment = None  # Store last assessment data for exit summary
 
     while True:
         print("\nSelect an option:")
@@ -242,6 +243,7 @@ def main():
                 if isinstance(result, dict):
                     last_quiz_score = result.get('score', 0)
                     weak_areas = result.get('weak_areas', [])
+                    last_assessment = result  # Store full assessment data
                     print(
                         f"\n🎓 Ready to learn more? Check out option 3 for personalized resources!")
                 elif isinstance(result, (int, float)):
@@ -354,9 +356,41 @@ def main():
                         print(f"❌ Error clearing database: {e}")
 
         elif choice == '8':
-            print(
-                "\nThank you for using the Phishing Awareness Security Assessment System!")
-            print("Keep learning and stay secure! 🔒📧")
+            print("\n" + "="*60)
+            if last_assessment:
+                profile = last_assessment.get('profile', {})
+                level = last_assessment.get('level', 'Unknown')
+                name = profile.get('name', 'User')
+
+                print(f"📊 SESSION SUMMARY FOR {name.upper()}")
+                print(
+                    f"Profile: {profile.get('gender', 'Unknown')}, {profile.get('education', 'Unknown')}, {profile.get('proficiency', 'Unknown')}")
+                print(f"Knowledge Level: {level}")
+
+                if level.lower() == 'basic':
+                    print(
+                        f"\n{name}, in phishing you are Basic knowledge - much better to improve!")
+                    print("Keep practicing and learning to protect yourself online. 💪")
+                elif level.lower() == 'intermediate':
+                    print(
+                        f"\n{name}, you're at Intermediate level - improvement is a must!")
+                    print("Focus on the weak areas and aim for Expert status. 📈")
+                elif level.lower() == 'advanced':
+                    print(
+                        f"\nFinally we met an Expert, {name}! 🎉 Congratulations!")
+                    print(
+                        "You're a phishing awareness champion. Keep sharing your knowledge! 🏆")
+                else:
+                    print(
+                        f"\n{name}, keep learning to improve your phishing awareness!")
+
+                print(
+                    f"\nThank you for using the Phishing Awareness Security Assessment System, {name}!")
+                print("Stay vigilant and keep your digital life secure! 🔒📧")
+            else:
+                print(
+                    "Thank you for using the Phishing Awareness Security Assessment System!")
+                print("Keep learning and stay secure! 🔒📧")
             break
 
         else:
