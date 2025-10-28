@@ -443,7 +443,8 @@ class AppPermissionsModelTrainer:
 
         print(f"Logistic Regression Model Accuracy: {accuracy:.2f}")
         print("\nClassification Report:")
-        print(classification_report(y_test, y_pred))
+        report_str = classification_report(y_test, y_pred)
+        print(report_str)
 
         # Save model and feature names
         joblib.dump(self.model, 'app_permissions_model.pkl')
@@ -460,6 +461,13 @@ class AppPermissionsModelTrainer:
             report_folder = os.path.join(os.path.dirname(
                 self.dataset_path), 'Trained Model Report')
             os.makedirs(report_folder, exist_ok=True)
+
+            # Save classification report to text file
+            with open(os.path.join(report_folder, 'classification_report.txt'), 'w') as f:
+                f.write("Logistic Regression Model Accuracy: {:.2f}\n\n".format(accuracy))
+                f.write("Classification Report:\n")
+                f.write(report_str)
+            print("✅ Classification report saved to 'classification_report.txt'")
 
             # Plot 1: Awareness level distribution
             plt.figure(figsize=(8, 6))
