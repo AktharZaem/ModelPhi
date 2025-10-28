@@ -17,7 +17,7 @@ except Exception:
     AppPermissionsTester = None
 
 
-class PhishingAwarenessModelTrainer:
+class AppPermissionsModelTrainer:
     def __init__(self, dataset_path, answer_sheet_path, assessment_results_path='app_permissions_assessment_results.json'):
         # Use absolute paths based on script directory for robustness
         script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -450,11 +450,95 @@ class PhishingAwarenessModelTrainer:
         joblib.dump(X.columns.tolist(), 'app_permissions_feature_names.pkl')
 
         print("Model saved as 'app_permissions_model.pkl'")
+
+        # Generate and save plots
+        try:
+            import matplotlib.pyplot as plt
+            from sklearn.metrics import confusion_matrix
+
+            # Create report folder
+            report_folder = os.path.join(os.path.dirname(
+                self.dataset_path), 'Trained Model Report')
+            os.makedirs(report_folder, exist_ok=True)
+
+            # Plot 1: Awareness level distribution
+            plt.figure(figsize=(8, 6))
+            self.df['awareness_level'].value_counts().plot(
+                kind='bar', color='skyblue')
+            plt.title('App Permissions Awareness Level Distribution')
+            plt.xlabel('Awareness Level')
+            plt.ylabel('Count')
+            plt.xticks(rotation=45)
+            plt.tight_layout()
+            plt.savefig(os.path.join(report_folder,
+                        'awareness_distribution.png'))
+            plt.close()
+
+            # Plot 2: Confusion Matrix
+            cm = confusion_matrix(y_test, y_pred)
+            plt.figure(figsize=(8, 6))
+            plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
+            plt.title('Confusion Matrix')
+            plt.colorbar()
+            tick_marks = np.arange(len(y.unique()))
+            plt.xticks(tick_marks, sorted(y.unique()), rotation=45)
+            plt.yticks(tick_marks, sorted(y.unique()))
+            plt.ylabel('True Label')
+            plt.xlabel('Predicted Label')
+            plt.tight_layout()
+            plt.savefig(os.path.join(report_folder, 'confusion_matrix.png'))
+            plt.close()
+
+            # Plot 3: Model Accuracy
+            plt.figure(figsize=(6, 4))
+            plt.bar(['Model Accuracy'], [accuracy], color='green', width=0.5)
+            plt.ylim(0, 1)
+            plt.title('Model Accuracy')
+            plt.ylabel('Accuracy')
+            plt.text(0, accuracy + 0.01, f'{accuracy:.2f}', ha='center')
+            plt.tight_layout()
+            plt.savefig(os.path.join(report_folder, 'model_accuracy.png'))
+            plt.close()
+
+            # Plot 4: Classification Metrics by Class
+            report_dict = classification_report(
+                y_test, y_pred, output_dict=True)
+            classes = sorted([c for c in report_dict.keys() if c not in [
+                             'accuracy', 'macro avg', 'weighted avg']])
+            precision = [report_dict[c]['precision'] for c in classes]
+            recall = [report_dict[c]['recall'] for c in classes]
+            f1 = [report_dict[c]['f1-score'] for c in classes]
+
+            x = np.arange(len(classes))
+            width = 0.25
+            plt.figure(figsize=(10, 6))
+            plt.bar(x - width, precision, width,
+                    label='Precision', color='blue')
+            plt.bar(x, recall, width, label='Recall', color='orange')
+            plt.bar(x + width, f1, width, label='F1-Score', color='green')
+            plt.xlabel('Classes')
+            plt.ylabel('Scores')
+            plt.title('Classification Metrics by Class')
+            plt.xticks(x, classes, rotation=45)
+            plt.legend()
+            plt.ylim(0, 1)
+            plt.tight_layout()
+            plt.savefig(os.path.join(report_folder,
+                        'classification_metrics.png'))
+            plt.close()
+
+            print(f"✅ Training reports saved to folder: {report_folder}")
+
+        except ImportError:
+            print("⚠️ Matplotlib not installed. Skipping plot generation.")
+        except Exception as e:
+            print(f"⚠️ Error generating plots: {e}")
+
         return self.model, accuracy
 
 
 if __name__ == "__main__":
-    trainer = PhishingAwarenessModelTrainer(
+    trainer = AppPermissionsModelTrainer(
         dataset_path='mobile_app_permission.csv',
         answer_sheet_path='answer_sheetappper.json'
     )

@@ -109,8 +109,8 @@ class AppPermissionsTester:
                     print(
                         "This email is already registered. Please use a different email!")
                     continue
-            except FileNotFoundError:
-                pass  # No database yet, allow
+            except (FileNotFoundError, json.JSONDecodeError):
+                pass  # No database yet, or invalid/empty JSON, allow
             break
 
         # Collect Full Name
@@ -400,7 +400,7 @@ class AppPermissionsTester:
         try:
             with open(database_file, 'r', encoding='utf-8') as f:
                 database = json.load(f)
-        except FileNotFoundError:
+        except (FileNotFoundError, json.JSONDecodeError):
             database = {
                 "metadata": {
                     "created": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),

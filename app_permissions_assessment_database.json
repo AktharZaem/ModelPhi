@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "created": "2025-10-28 13:51:42",
+    "category": "Mobile App Permissions Security Assessment",
+    "description": "Assessment results database for app permissions security awareness"
+  },
+  "assessments": [
+    {
+      "timestamp": "2025-10-28 13:51:42",
+      "email": "a@gmail.com",
+      "name": "akku",
+      "organization": "UOR",
+      "gender": "Male",
+      "education_level": "A/L",
+      "proficiency": "High Education",
+      "total_score": 49,
+      "percentage": 49.0,
+      "overall_knowledge_level": "Basic",
+      "category": "App Permissions"
+    }
+  ]
+}

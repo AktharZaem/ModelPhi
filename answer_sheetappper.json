@@ -19,7 +19,7 @@
     "questions": [
         {
             "questionId": "Q01",
-            "question": "You receive an unexpected email asking to confirm your bank details like this. What should you do?",
+            "question": "You receive an unexpected email asking to confirm your personal details like this. What should you do?",
             "options": [
                 {
                     "label": "A",
@@ -49,11 +49,11 @@
         },
         {
             "questionId": "Q02",
-            "question": "Which of these is a sign of a phishing email?",
+            "question": "You receive an unexpected email that feels suspicious. Which detail should make you think twice before clicking?",
             "options": [
                 {
                     "label": "A",
-                    "text": "Grammatical errors and urgent tone",
+                    "text": "Grammatical mistakes and an urgent tone",
                     "marks": 10,
                     "level": "Advanced"
                 },
@@ -79,7 +79,7 @@
         },
         {
             "questionId": "Q03",
-            "question": "If an email address looks like “support@amazo0n.com”, what should you do?",
+            "question": "If an email address looks like “support@amazo0n.com,” what should you do?",
             "options": [
                 {
                     "label": "A",
@@ -169,7 +169,7 @@
         },
         {
             "questionId": "Q06",
-            "question": "You receive a pop-up asking for your login like this. What should you do?",
+            "question": "You receive a pop-up asking for your login like this.What should you do?",
             "options": [
                 {
                     "label": "A",
@@ -199,7 +199,7 @@
         },
         {
             "questionId": "Q07",
-            "question": "Why do phishing emails often include urgent messages like “Act Now!”?",
+            "question": "Why do Fake emails often include urgent messages like “Act Now!”?",
             "options": [
                 {
                     "label": "A",

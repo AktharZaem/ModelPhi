@@ -16,21 +16,21 @@ def check_dependencies():
 
     try:
         from app_permissions_model_trainer import AppPermissionsModelTrainer
-        print("✅ app_permissions_model_trainer module imported successfully")
+        print("✅ Phishing_awareness_model_trainer module imported successfully")
     except ImportError as e:
-        print(f"❌ Failed to import app_permissions_model_trainer: {e}")
+        print(f"❌ Failed to import Phishing_awareness_model_trainer: {e}")
         missing_modules.append("app_permissions_model_trainer")
 
     try:
         from app_permissions_user_tester import AppPermissionsTester
-        print("✅ app_permissions_user_tester module imported successfully")
+        print("✅ Phishing_awareness_user_tester module imported successfully")
     except ImportError as e:
-        print(f"❌ Failed to import app_permissions_user_tester: {e}")
+        print(f"❌ Failed to import Phishing_awareness_user_tester: {e}")
         missing_modules.append("app_permissions_user_tester")
 
     try:
         from app_permissions_educational_resources import AppPermissionsEducationalManager
-        print("✅ app_permissions_educational_resources module imported successfully")
+        print("✅ Phishing_awareness_educational_resources module imported successfully")
     except ImportError as e:
         print(f"❌ Failed to import app_permissions_educational_resources: {e}")
         missing_modules.append("app_permissions_educational_resources")
@@ -145,8 +145,8 @@ def view_assessment_database():
                 f"   Profile: {assessment['gender']}, {assessment['education_level']}, {assessment['proficiency']}")
             print()
 
-    except FileNotFoundError:
-        print("📊 No assessment database found. Take an assessment first!")
+    except (FileNotFoundError, json.JSONDecodeError):
+        print("📊 No assessment database found or database is empty/invalid. Take an assessment first!")
     except Exception as e:
         print(f"❌ Error reading database: {e}")
 
@@ -216,14 +216,25 @@ def main():
                 print("Please ensure the answer sheet file is in the script directory.")
                 continue
 
+            # Initialize assessment results file if missing or empty
+            assessment_results_path = os.path.join(
+                current_dir, 'app_permissions_assessment_results.json')
+            if not os.path.exists(assessment_results_path) or os.path.getsize(assessment_results_path) == 0:
+                try:
+                    with open(assessment_results_path, 'w') as f:
+                        json.dump({"assessments": []}, f)
+                    print("✅ Initialized empty assessment results file.")
+                except Exception as e:
+                    print(
+                        f"⚠️ Could not initialize assessment results file: {e}")
+
             try:
                 print("Initializing trainer...")
                 # Explicitly pass absolute paths so trainer combines CSV + JSON
                 trainer = AppPermissionsModelTrainer(
                     dataset_path=dataset_path,
                     answer_sheet_path=answer_sheet_path,
-                    assessment_results_path=os.path.join(
-                        current_dir, 'app_permissions_assessment_results.json')
+                    assessment_results_path=assessment_results_path
                 )
 
                 print(
@@ -278,7 +289,7 @@ def main():
                         user_assessments.sort(
                             key=lambda x: x['timestamp'], reverse=True)
                         existing_assessment = user_assessments[0]  # Latest one
-                except Exception as e:
+                except (FileNotFoundError, json.JSONDecodeError) as e:
                     print(f"❌ Error checking database: {e}")
 
             # Initialize tester
