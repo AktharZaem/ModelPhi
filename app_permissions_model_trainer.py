@@ -351,8 +351,6 @@ class AppPermissionsModelTrainer:
                 return 'Expert'
             elif percentage >= 50:
                 return 'Intermediate'
-            elif percentage >= 25:
-                return 'Basic'
             else:
                 return 'Beginner'
 
@@ -464,7 +462,8 @@ class AppPermissionsModelTrainer:
 
             # Save classification report to text file
             with open(os.path.join(report_folder, 'classification_report.txt'), 'w') as f:
-                f.write("Logistic Regression Model Accuracy: {:.2f}\n\n".format(accuracy))
+                f.write(
+                    "Logistic Regression Model Accuracy: {:.2f}\n\n".format(accuracy))
                 f.write("Classification Report:\n")
                 f.write(report_str)
             print("✅ Classification report saved to 'classification_report.txt'")
@@ -493,6 +492,15 @@ class AppPermissionsModelTrainer:
             plt.yticks(tick_marks, sorted(y.unique()))
             plt.ylabel('True Label')
             plt.xlabel('Predicted Label')
+
+            # Add text annotations for each cell
+            thresh = cm.max() / 2.
+            for i in range(cm.shape[0]):
+                for j in range(cm.shape[1]):
+                    plt.text(j, i, format(cm[i, j], 'd'),
+                             ha="center", va="center",
+                             color="white" if cm[i, j] > thresh else "black")
+
             plt.tight_layout()
             plt.savefig(os.path.join(report_folder, 'confusion_matrix.png'))
             plt.close()

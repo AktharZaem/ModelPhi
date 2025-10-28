@@ -126,17 +126,17 @@ class AppPermissionsEducationalManager:
             score = float(quiz_score)
         except Exception:
             return "Beginner"
-        if score <= 30:
+        if score < 50:
             return "Beginner"
-        if score <= 70:
+        if score < 75:
             return "Intermediate"
-        return "Advanced"
+        return "Expert"
 
     def _expand_by_level(self, level: str, count: int = 1000) -> List[Dict]:
         variations = {
             "Beginner": ["Basics", "Getting Started", "Intro Guide", "Tips", "Foundations"],
             "Intermediate": ["Practical Use", "Manager Setup", "2FA Workflows", "Examples", "Hands-on"],
-            "Advanced": ["Threat Modeling", "Automation", "Hardware Keys", "Security Audits", "Zero Trust"]
+            "Expert": ["Threat Modeling", "Automation", "Hardware Keys", "Security Audits", "Zero Trust"]
         }
         expanded = []
         idx = 1
@@ -161,7 +161,7 @@ class AppPermissionsEducationalManager:
         return {
             "Beginner": self._expand_by_level("Beginner", 1000),
             "Intermediate": self._expand_by_level("Intermediate", 1000),
-            "Advanced": self._expand_by_level("Advanced", 1000)
+            "Expert": self._expand_by_level("Expert", 1000)
         }
 
     def generate_personalized_content(self, weak_areas: Optional[List[str]], knowledge_level: str) -> str:
@@ -206,7 +206,7 @@ class AppPermissionsEducationalManager:
         next_steps = {
             "Beginner": "Next step: Finish Beginner track; create a strong passphrase and install a password manager.",
             "Intermediate": "Next step: Practice manager workflows and enable 2FA on major accounts.",
-            "Advanced": "Next step: Implement automated rotation, hardware keys, and audit your secrets vault."
+            "Expert": "Next step: Implement automated rotation, hardware keys, and audit your secrets vault."
         }
         parts.append(next_steps.get(knowledge_level,
                      "Keep improving your security posture."))
