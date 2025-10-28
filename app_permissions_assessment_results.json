@@ -1,19 +1,16 @@
 {
   "results": [
     {
-      "assessments": []
-    },
-    {
       "profile": {
         "email": "a@gmail.com",
-        "name": "a@gmail.com",
-        "organization": "UOR",
         "gender": "Male",
-        "education": "O/L",
-        "proficiency": "School"
+        "education": "A/L",
+        "proficiency": "High Education",
+        "name": "akku",
+        "organization": "UOR"
       },
       "responses": {
-        "You receive an unexpected email asking to confirm your personal details like this. What should you do?": "Click the link to check",
+        "You receive an unexpected email asking to confirm your personal details like this. What should you do?": "Report it as phishing",
         "You receive an unexpected email that feels suspicious. Which detail should make you think twice before clicking?": "Grammatical mistakes and an urgent tone",
         "If an email address looks like “support@amazo0n.com,” what should you do?": "Recognize it’s spoofed and report it",
         "You’re asked to reset your password through an email link. What is the safest step?": "Go directly to the official website to reset",
@@ -26,9 +23,9 @@
       },
       "scores": {
         "You receive an unexpected email asking to confirm your personal details like this. What should you do?": {
-          "answer": "Click the link to check",
-          "score": 3,
-          "level": "Beginner"
+          "answer": "Report it as phishing",
+          "score": 10,
+          "level": "Advanced"
         },
         "You receive an unexpected email that feels suspicious. Which detail should make you think twice before clicking?": {
           "answer": "Grammatical mistakes and an urgent tone",
@@ -76,88 +73,10 @@
           "level": "Advanced"
         }
       },
-      "total_score": 93,
-      "percentage": 93.0,
+      "total_score": 100,
+      "percentage": 100.0,
       "overall_level": "Expert",
-      "timestamp": "2025-10-28 13:42:17"
-    },
-    {
-      "profile": {
-        "email": "a@gmail.com",
-        "name": "akku",
-        "organization": "UOR",
-        "gender": "Male",
-        "education": "A/L",
-        "proficiency": "High Education"
-      },
-      "responses": {
-        "You receive an unexpected email asking to confirm your personal details like this. What should you do?": "Reply and confirm",
-        "You receive an unexpected email that feels suspicious. Which detail should make you think twice before clicking?": "It comes from your manager",
-        "If an email address looks like “support@amazo0n.com,” what should you do?": "Delete and mark as spam",
-        "You’re asked to reset your password through an email link. What is the safest step?": "Forward it to someone else",
-        "Why is it risky to use the same password for email and banking?": "It can be confusing",
-        "You receive a pop-up asking for your login like this.What should you do?": "Check the URL and site certificate",
-        "Why do Fake emails often include urgent messages like “Act Now!”?": "Because it’s a system error",
-        "What’s a “spear phishing” attack?": "A highly targeted email crafted for a specific person",
-        "Why do attackers sometimes use HTTPS in phishing sites?": "To block ads",
-        "What should be your first response if you clicked a phishing link?": "Run antivirus, change your passwords, report it"
-      },
-      "scores": {
-        "You receive an unexpected email asking to confirm your personal details like this. What should you do?": {
-          "answer": "Reply and confirm",
-          "score": 0,
-          "level": "Wrong"
-        },
-        "You receive an unexpected email that feels suspicious. Which detail should make you think twice before clicking?": {
-          "answer": "It comes from your manager",
-          "score": 3,
-          "level": "Beginner"
-        },
-        "If an email address looks like “support@amazo0n.com,” what should you do?": {
-          "answer": "Delete and mark as spam",
-          "score": 5,
-          "level": "Intermediate"
-        },
-        "You’re asked to reset your password through an email link. What is the safest step?": {
-          "answer": "Forward it to someone else",
-          "score": 0,
-          "level": "Wrong"
-        },
-        "Why is it risky to use the same password for email and banking?": {
-          "answer": "It can be confusing",
-          "score": 3,
-          "level": "Beginner"
-        },
-        "You receive a pop-up asking for your login like this.What should you do?": {
-          "answer": "Check the URL and site certificate",
-          "score": 10,
-          "level": "Advanced"
-        },
-        "Why do Fake emails often include urgent messages like “Act Now!”?": {
-          "answer": "Because it’s a system error",
-          "score": 3,
-          "level": "Beginner"
-        },
-        "What’s a “spear phishing” attack?": {
-          "answer": "A highly targeted email crafted for a specific person",
-          "score": 10,
-          "level": "Advanced"
-        },
-        "Why do attackers sometimes use HTTPS in phishing sites?": {
-          "answer": "To block ads",
-          "score": 5,
-          "level": "Intermediate"
-        },
-        "What should be your first response if you clicked a phishing link?": {
-          "answer": "Run antivirus, change your passwords, report it",
-          "score": 10,
-          "level": "Advanced"
-        }
-      },
-      "total_score": 49,
-      "percentage": 49.0,
-      "overall_level": "Basic",
-      "timestamp": "2025-10-28 13:51:16"
+      "timestamp": "2025-10-28 13:54:13"
     }
   ]
 }

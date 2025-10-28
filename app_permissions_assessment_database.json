@@ -17,6 +17,19 @@
       "percentage": 49.0,
       "overall_knowledge_level": "Basic",
       "category": "App Permissions"
+    },
+    {
+      "timestamp": "2025-10-28 13:54:29",
+      "email": "a@gmail.com",
+      "name": "akku",
+      "organization": "UOR",
+      "gender": "Male",
+      "education_level": "A/L",
+      "proficiency": "High Education",
+      "total_score": 100,
+      "percentage": 100.0,
+      "overall_knowledge_level": "Expert",
+      "category": "App Permissions"
     }
   ]
 }
