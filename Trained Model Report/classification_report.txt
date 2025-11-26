@@ -1,12 +1,12 @@
-Logistic Regression Model Accuracy: 0.96
+Logistic Regression Model Accuracy: 0.95
 
 Classification Report:
               precision    recall  f1-score   support
 
-    Beginner       0.97      0.99      0.98       146
-      Expert       1.00      0.50      0.67         6
-Intermediate       0.94      0.93      0.94        73
+    Beginner       0.97      0.98      0.97       146
+      Expert       0.75      0.50      0.60         6
+Intermediate       0.92      0.92      0.92        73
 
-    accuracy                           0.96       225
-   macro avg       0.97      0.81      0.86       225
-weighted avg       0.96      0.96      0.96       225
+    accuracy                           0.95       225
+   macro avg       0.88      0.80      0.83       225
+weighted avg       0.94      0.95      0.95       225
