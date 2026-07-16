@@ -3,7 +3,6 @@ import joblib
 import pandas as pd
 import numpy as np
 import os
-import requests
 import re
 from app_permissions_knowledge_enhancer import AppPermissionsKnowledgeEnhancer
 

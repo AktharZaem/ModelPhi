@@ -16,21 +16,21 @@ def check_dependencies():
 
     try:
         from app_permissions_model_trainer import AppPermissionsModelTrainer
-        print("✅ Phishing_awareness_model_trainer module imported successfully")
+        print("✅ app_permissions_model_trainer module imported successfully")
     except ImportError as e:
-        print(f"❌ Failed to import Phishing_awareness_model_trainer: {e}")
+        print(f"❌ Failed to import app_permissions_model_trainer: {e}")
         missing_modules.append("app_permissions_model_trainer")
 
     try:
         from app_permissions_user_tester import AppPermissionsTester
-        print("✅ Phishing_awareness_user_tester module imported successfully")
+        print("✅ app_permissions_user_tester module imported successfully")
     except ImportError as e:
-        print(f"❌ Failed to import Phishing_awareness_user_tester: {e}")
+        print(f"❌ Failed to import app_permissions_user_tester: {e}")
         missing_modules.append("app_permissions_user_tester")
 
     try:
         from app_permissions_educational_resources import AppPermissionsEducationalManager
-        print("✅ Phishing_awareness_educational_resources module imported successfully")
+        print("✅ app_permissions_educational_resources module imported successfully")
     except ImportError as e:
         print(f"❌ Failed to import app_permissions_educational_resources: {e}")
         missing_modules.append("app_permissions_educational_resources")
